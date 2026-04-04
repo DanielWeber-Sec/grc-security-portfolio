@@ -1,56 +1,81 @@
-# Internal ISMS Audit – ISO 27001 Perspective
+# Internal Audit Report – ISMS
 
 ---
 
-## Objective
+## Summary
 
-To assess the effectiveness and completeness of the implemented ISMS controls and identify gaps against ISO 27001 expectations.
+The audit identified several areas where controls are defined but not fully effective in practice.
 
----
+Key weaknesses relate to:
 
-## Scope
-
-The audit covers:
-
-- Risk assessment process
-- Defined security controls
-- Implemented policies
-- Incident response capabilities
+- delayed patching processes
+- insufficient network segmentation
+- incomplete monitoring coverage
 
 ---
 
-## Methodology
+## Findings
 
-The audit is conducted based on:
+### 1. Patch Management
 
-- ISO 27001 control expectations
-- Risk-based evaluation
-- Practical effectiveness of controls
+**Observation:**
+Patch cycles are not consistently enforced.
 
-The focus is on identifying:
+**Risk:**
+Increased exposure to known vulnerabilities.
 
-- control gaps
-- weak implementations
-- missing governance elements
-
----
-
-## Key Audit Areas
-
-- Risk Management
-- Access Control
-- Incident Response
-- Backup & Recovery
-- Monitoring & Detection
+**Recommendation:**
+Implement centralized patch management and enforce strict update timelines.
 
 ---
 
-## Outcome
+### 2. Network Segmentation
 
-The audit results in:
+**Observation:**
+Insufficient separation between systems allows lateral movement.
 
-- identified findings
-- risk-based prioritization
-- actionable recommendations
+**Risk:**
+Attack propagation across systems.
 
-👉 Detailed report: audit-report.md
+**Recommendation:**
+Implement network segmentation aligned with critical assets.
+
+---
+
+### 3. Monitoring & Detection
+
+**Observation:**
+Limited logging and monitoring capabilities.
+
+**Risk:**
+Delayed detection of incidents.
+
+**Recommendation:**
+Expand monitoring coverage and introduce alerting mechanisms.
+
+---
+
+### 4. Backup Strategy
+
+**Observation:**
+Backups exist but are not regularly tested.
+
+**Risk:**
+Recovery failure during incidents.
+
+**Recommendation:**
+Introduce regular backup testing and offline backup strategy.
+
+---
+
+## Overall Assessment
+
+The ISMS provides a solid foundation but requires improvements in control effectiveness and operational enforcement.
+
+---
+
+## Next Steps
+
+- prioritize high-risk findings
+- implement corrective actions
+- re-assess controls after implementation
