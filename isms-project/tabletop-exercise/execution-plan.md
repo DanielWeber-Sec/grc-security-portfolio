@@ -1,5 +1,7 @@
 # Tabletop Execution Plan – Ransomware Scenario
 
+---
+
 ## Participants
 
 - IT Security (Lead)
@@ -8,32 +10,40 @@
 - Legal / Compliance
 - Communications
 
+---
+
 ## Timeline
 
 | Phase | Description |
 |------|------------|
 | T0 | Phishing email received |
 | T+1h | Credential compromise detected |
-| T+4h | Lateral movement identified |
+| T+4h | Lateral movement |
 | T+8h | Systems encrypted |
+
+---
 
 ## Key Decisions
 
 - When to isolate systems?
 - Shut down production or not?
-- Inform customers/regulators?
+- Inform customers and regulators?
 - Engage external incident response?
+
+---
 
 ## Success Criteria
 
-- Incident detected within acceptable timeframe
-- Clear escalation path followed
-- Roles and responsibilities understood
-- Communication handled properly
+- Timely detection of the incident
+- Clear escalation process followed
+- Defined roles understood and executed
+- Effective communication
+
+---
 
 ## Evaluation Metrics
 
 - Response time
 - Decision quality
-- Communication clarity
-- Recovery effectiveness
+- Communication effectiveness
+- Recovery success
