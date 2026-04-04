@@ -3,6 +3,7 @@
 ## Scenario
 
 Mid-sized automotive supplier (Germany)
+Business-critical environment with high dependency on production uptime and supplier integration.
 
 ## Scope
 
