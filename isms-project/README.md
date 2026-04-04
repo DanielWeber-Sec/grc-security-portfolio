@@ -23,3 +23,9 @@ Risk-based approach following ISO 27001 principles (Impact vs Likelihood).
 
 ## Outcome
 Structured ISMS foundation including risk assessment, defined controls, and initial policy framework.
+
+## Project Components
+
+- Risk Assessment → ./risk-assessment
+- Security Policies → ./security-policies
+- Statement of Applicability → ./statement-of-applicability.md
