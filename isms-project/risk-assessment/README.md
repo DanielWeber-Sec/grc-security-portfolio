@@ -4,20 +4,37 @@
 
 ## Objective
 
-Identify, evaluate, and prioritize information security risks in a production-driven environment.
+To identify, assess, and prioritize information security risks in a production-driven environment.
 
-The assessment focuses on risks that have a **direct impact on business operations**, rather than theoretical or low-relevance threats.
+The focus is on risks with direct operational and business impact, ensuring practical relevance for decision-making.
+
+---
+
+## Scope
+
+The assessment focuses on the IT environment of a mid-sized automotive supplier, including:
+
+- Customer CRM systems
+- Internal IT infrastructure
+- Supplier integrations
+- User access and identity management
 
 ---
 
 ## Methodology
 
-The risk evaluation follows ISO 27001 principles using a qualitative model based on:
+The risk assessment follows ISO 27001 principles using a structured 5x5 risk matrix.
 
-- **Impact**  
-- **Likelihood**
+Risk Score = Likelihood × Impact
 
-### Impact Criteria
+- Likelihood: 1 (Very Low) to 5 (Very High)  
+- Impact: 1 (Very Low) to 5 (Very High)
+
+This approach ensures consistent and comparable risk evaluation across all identified assets.
+
+---
+
+## Impact Criteria
 
 Impact is assessed across:
 
@@ -25,58 +42,41 @@ Impact is assessed across:
 - Operational disruption  
 - Reputational impact  
 
-### Likelihood Criteria
+---
+
+## Likelihood Criteria
 
 Likelihood reflects the probability of occurrence based on:
 
-- threat exposure  
-- existing controls  
-- typical attack patterns  
+- Threat exposure  
+- Existing controls  
+- Typical attack patterns  
 
 ---
 
-## Risk Register
+## Risk Levels
 
-| Risk | Description | Impact | Likelihood | Mitigation |
-|------|------------|--------|------------|------------|
-| Ransomware | Malware infection leading to production outage | High | Medium | Backup strategy, network segmentation |
-| Phishing | Credential theft via email attacks | Medium | High | Security awareness training |
-| Supplier Risk | Compromise via third-party access | High | Low | Supplier assessments, contractual controls |
+- 1–5 → Low  
+- 6–14 → Medium  
+- 15–25 → High  
 
 ---
 
-## Risk Prioritization
+## Residual Risk
 
-Risks are prioritized based on the combination of impact and likelihood.
+Residual risk reflects the remaining risk after implementing controls.
 
-Priority logic:
+Residual Risk = Residual Likelihood × Residual Impact
 
-- High Impact + Medium/High Likelihood → **Immediate attention required**  
-- Medium Impact + High Likelihood → **Operational risk**  
-- High Impact + Low Likelihood → **Strategic monitoring required**
-
-This prioritization directly influences control selection.
+This allows evaluating the effectiveness of mitigation measures.
 
 ---
 
-## Business Impact
+## Risk Register (Detailed)
 
-The identified risks translate into tangible business consequences:
+The full risk register includes structured risk evaluation, treatment planning, and residual risk calculation.
 
-- Production downtime → direct financial loss  
-- Data breaches → reputational damage  
-- Supplier compromise → supply chain disruption  
+![Risk Register Preview](risk-register-preview.png)
 
-This reinforces the need to treat information security as a **business-critical function**.
-
----
-
-## Outcome
-
-The assessment provides:
-
-- a structured overview of key risks  
-- clear prioritization  
-- a direct foundation for control selection  
-
-It serves as the **decision basis for the ISMS design**.
+Full dataset:  
+[risk-register.xlsx](risk-register.xlsx)
