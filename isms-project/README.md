@@ -1,129 +1,69 @@
-# ISMS Implementation (ISO 27001)
+# ISMS Mini Implementation – Automotive Supplier
 
 ---
 
-## Scenario
+## Overview
 
-This project models the implementation of an Information Security Management System (ISMS) for a mid-sized automotive supplier in Germany.
+This project represents a simplified Information Security Management System (ISMS) aligned with ISO 27001 principles.
 
-The organization operates in a production-driven environment with:
-
-- high dependency on system availability  
-- tight integration with suppliers  
-- handling of sensitive operational and customer-related data  
-
-Security is therefore not an isolated concern, but directly linked to **business continuity and operational stability**.
+It demonstrates how risk assessment, incident response, and governance interact in a practical business environment.
 
 ---
 
 ## Objective
 
-The objective of this project is to design a structured, ISO 27001-aligned ISMS that:
-
-- reflects realistic organizational constraints  
-- focuses on business-relevant risks  
-- translates security requirements into practical controls and policies  
+To model a realistic and structured approach to identifying, evaluating, and managing information security risks in a production-driven organization.
 
 ---
 
-## Scope
+## Components
 
-The ISMS scope includes:
+### Risk Assessment
 
-- Office IT systems  
-- Production-related systems  
-- Supplier interfaces and integrations  
+Identification and evaluation of security risks affecting critical business processes.
 
-The scope deliberately focuses on areas with **high operational and security relevance**, rather than attempting full organizational coverage.
+Includes:
 
----
-
-## Key Assets
-
-Critical assets identified within the scope include:
-
-- ERP system (core business operations)  
-- Production systems (availability-critical)  
-- Customer and operational data  
-
-These assets form the foundation for risk identification and prioritization.
+- Risk register (Excel-based)
+- Risk scoring (Likelihood × Impact)
+- Risk prioritization and treatment
 
 ---
 
-## Risk Approach
+### Tabletop Exercise
 
-A risk-based approach is applied in line with ISO 27001 principles.
+Simulation of a ransomware incident to validate:
 
-Key characteristics:
-
-- Evaluation based on **Impact vs. Likelihood**  
-- Consideration of:
-  - financial impact  
-  - operational disruption  
-  - reputational damage  
-
-The goal is not to enumerate all possible risks, but to identify and prioritize **relevant and plausible risk scenarios**.
-
-👉 Detailed assessment: `/risk-assessment`
+- Incident response processes
+- Decision-making under pressure
+- Business continuity capabilities
 
 ---
 
-## Control Strategy
+### Security Policies
 
-Controls are selected based on their ability to:
+Definition of governance structures and controls, including:
 
-- reduce high-priority risks  
-- support operational resilience  
-- remain realistically implementable  
-
-Focus areas:
-
-- Access Control  
-- Backup & Recovery  
-- Supplier Management  
-
-The control selection reflects a **pragmatic balance between risk reduction and feasibility**.
+- Incident Response Policy
+- Access Control Policy
+- Backup Policy
 
 ---
 
-## Policy Framework
+## Methodology
 
-To support governance, a minimal but effective policy framework is defined.
+The project follows ISO 27001 principles using a structured risk-based approach:
 
-Included:
-
-- Access Control Policy  
-- Backup Policy  
-- Incident Response Policy  
-
-Each policy establishes:
-
-- clear principles  
-- responsibilities  
-- minimum security expectations  
-
-👉 See: `/security-policies`
+- Likelihood (1–5)
+- Impact (1–5)
+- Risk Score = Likelihood × Impact
 
 ---
 
-## Statement of Applicability (SoA)
+## Goal
 
-A simplified Statement of Applicability is included to demonstrate:
+To demonstrate practical GRC capabilities by linking:
 
-- selection of relevant ISO 27001 controls  
-- justification for inclusion/exclusion  
-- linkage between risks and controls  
-
-👉 See: `/statement-of-applicability.md`
-
----
-
-## Outcome
-
-The result is a structured ISMS foundation that demonstrates:
-
-- risk-based thinking  
-- coherent control selection  
-- alignment between risks, controls, and policies  
-
-The focus lies on **clarity, consistency, and practical applicability**, rather than formal completeness.
+- Risk identification
+- Incident response
+- Governance and controls
