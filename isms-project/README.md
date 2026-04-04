@@ -32,3 +32,13 @@ Mid-sized automotive supplier (Germany)
 ## Outcome
 
 Basic ISMS aligned with ISO 27001 principles.
+
+## Business Impact
+
+- Reduction of production downtime risk
+- Improved protection of sensitive customer data
+- Increased operational resilience
+
+## Management Perspective
+
+This ISMS enables structured risk-based decision-making and aligns security with overall business objectives.
