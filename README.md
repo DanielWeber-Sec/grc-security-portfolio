@@ -6,9 +6,11 @@ Practical GRC & ISMS portfolio – ISO 27001, risk management and security gover
 
 ## GRC & Information Security Portfolio
 
-This repository demonstrates hands-on work in Governance, Risk, and Compliance (GRC) and Information Security Management, with a strong focus on **business-aligned security decision-making**.
+This repository demonstrates practical work in Governance, Risk, and Compliance (GRC) and Information Security Management, with a focus on **structured, business-aligned security implementation**.
 
-The projects are designed to reflect **real-world scenarios**, where security is not implemented in isolation, but integrated into operational, financial, and strategic contexts.
+The goal is not to showcase isolated technical controls, but to demonstrate how security can be translated into **coherent governance structures, risk-based decisions, and implementable measures**.
+
+All artifacts are built around a realistic scenario and follow a consistent logic from **risk identification → control definition → policy design → ISMS structuring**.
 
 ---
 
@@ -17,20 +19,20 @@ The projects are designed to reflect **real-world scenarios**, where security is
 Background:
 
 - 10+ years in IT Project Management & Requirements Engineering  
-- Strong experience at the interface between business and IT  
-- Focus on structured problem solving, stakeholder alignment, and risk-based decision making  
+- Experience in structuring complex environments and aligning stakeholders  
+- Strong focus on translating business requirements into actionable concepts  
 - Transition into Information Security Governance (GRC)
 
-This portfolio represents the shift from delivery-focused IT roles towards **security governance, risk management, and ISMS implementation**.
+This portfolio reflects the shift towards roles where security is understood as a **management and decision-support discipline**, not just a technical function.
 
 ---
 
 ## Focus Areas
 
 - ISMS (ISO 27001 aligned)
-- Risk Management (impact-based, business-driven)
+- Risk Management (impact-driven, business-focused)
 - Security Governance
-- Policy Design & Control Definition
+- Policy Design and Control Definition
 
 ---
 
@@ -38,33 +40,45 @@ This portfolio represents the shift from delivery-focused IT roles towards **sec
 
 ### ISMS Implementation (ISO 27001)
 
-End-to-end design of an ISO 27001-aligned Information Security Management System (ISMS) for a mid-sized automotive supplier in Germany.
+Design of an ISO 27001-aligned Information Security Management System (ISMS) for a mid-sized automotive supplier in Germany.
 
-The scenario reflects a **production-critical environment** with strong dependencies on uptime, supplier integration, and data protection requirements.
+The scenario assumes:
 
-The implementation includes:
+- high dependency on production uptime  
+- integration with external suppliers  
+- handling of sensitive operational and customer data  
 
-- Definition of ISMS scope and key assets  
-- Risk-based approach following ISO 27001 principles  
-- Identification and prioritization of relevant threats  
-- Definition of security controls and policies  
+The ISMS is structured to reflect how such an environment would realistically be governed.
+
+Key elements:
+
+- Definition of scope and system boundaries  
+- Identification of critical assets and dependencies  
+- Establishment of a risk-based approach (impact vs. likelihood)  
+- Selection and structuring of relevant controls  
+- Initial policy framework to support governance  
 - Creation of a Statement of Applicability (SoA)
 
-👉 Explore the full project: `/isms-project`
+👉 Full project: `/isms-project`
 
 ---
 
 ### Risk Assessment
 
-Structured risk analysis based on **impact vs. likelihood**, aligned with ISO 27001 methodology.
+A structured risk assessment based on ISO 27001 principles.
 
-Focus areas include:
+The focus is not only on identifying threats, but on understanding their **business implications and prioritization logic**.
 
-- Production downtime risks  
-- Phishing and credential compromise  
-- Supplier and third-party vulnerabilities  
+The assessment includes:
 
-The assessment considers **financial, operational, and reputational impact**, not just technical severity.
+- definition of evaluation criteria (impact and likelihood)  
+- consideration of financial, operational, and reputational impact  
+- identification of key risk scenarios such as:
+  - production downtime
+  - phishing and credential compromise
+  - supplier-related risks  
+
+The outcome is a **prioritized risk view** that directly informs control selection.
 
 👉 See details: `/isms-project/risk-assessment`
 
@@ -72,13 +86,21 @@ The assessment considers **financial, operational, and reputational impact**, no
 
 ### Security Policies
 
-Definition of core security policies to support ISMS implementation, including:
+Definition of core policies required to support the ISMS.
+
+The policies are intentionally designed to be:
+
+- concise but actionable  
+- aligned with ISO 27001 expectations  
+- realistic in terms of implementation effort  
+
+Included policies:
 
 - Access Control Policy  
 - Backup & Recovery Policy  
 - Incident Response Policy  
 
-The policies are designed to be **pragmatic, implementable, and audit-relevant**, rather than purely theoretical.
+Each policy focuses on establishing **clear responsibilities, principles, and minimum controls**, without over-engineering.
 
 👉 See policies: `/isms-project/security-policies`
 
@@ -86,21 +108,30 @@ The policies are designed to be **pragmatic, implementable, and audit-relevant**
 
 ## Approach
 
-This portfolio follows a **practical and business-oriented approach to security**:
+This portfolio follows a pragmatic approach to security:
 
-- Security is treated as a **risk management discipline**, not just a technical domain  
-- Decisions are driven by **business impact and operational reality**  
-- Controls are selected based on **effectiveness and feasibility**, not checkbox compliance  
-- The focus is on **building structures that would work in a real organization**
+- Security is treated as part of **risk management and business continuity**  
+- Controls are selected based on **effectiveness and operational feasibility**  
+- Documentation aims to be **usable, not just compliant**  
+- The focus lies on building **structures that could realistically be implemented in an organization**
+
+Rather than aiming for completeness on paper, the emphasis is on **coherence, prioritization, and practical applicability**.
 
 ---
 
 ## Goal
 
-Demonstrate practical, business-aligned security capabilities for roles in:
+The goal of this portfolio is to demonstrate the ability to:
+
+- structure an ISMS from a realistic scenario  
+- assess and prioritize risks in a business context  
+- derive appropriate controls and policies  
+- translate security requirements into clear, usable documentation  
+
+This reflects the requirements of roles in:
 
 - Information Security Governance (GRC)  
 - ISMS Implementation & Management  
 - Risk & Compliance  
 
-The intention is to show not only theoretical knowledge, but the ability to **translate security requirements into structured, actionable solutions**.
+The focus is on **practical applicability and structured thinking**, not theoretical completeness.
