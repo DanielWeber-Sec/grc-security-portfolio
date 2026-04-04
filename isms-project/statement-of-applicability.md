@@ -68,4 +68,4 @@ The SoA provides:
 - traceability to identified risks  
 - a foundation for further ISMS development  
 
-It serves as a key artifact linking **risk assessment and control implementation**.
+It serves as a key artifact linking **risk assessment and control implementation**. 
