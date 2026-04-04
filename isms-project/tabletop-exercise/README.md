@@ -2,6 +2,14 @@
 
 ---
 
+## Context
+
+This tabletop exercise is part of a simplified ISMS implementation aligned with ISO 27001 principles.
+
+It is designed to validate the effectiveness of defined risk treatment measures and incident response capabilities by simulating a realistic ransomware attack scenario.
+
+---
+
 ## Scenario Overview
 
 A targeted ransomware attack impacts the internal IT environment of a mid-sized automotive supplier.
@@ -28,58 +36,40 @@ Systems in scope:
 
 - Customer CRM system
 - File servers (shared drives)
-- Active Directory / Identity Management
+- Identity and access management (Active Directory)
 - Production planning systems
-
-Out of scope:
-
-- OT systems (only indirectly impacted)
 
 ---
 
 ## Initial Situation (T0)
 
-- Multiple employees report inaccessible files
+- Users report inaccessible files
 - Ransom note detected on shared drives
-- Unusual login activity during off-hours
-- EDR alerts triggered (lateral movement behavior)
+- Suspicious login activity outside business hours
+- EDR alerts indicating lateral movement
 
 ---
 
-## Attack Progression (Simulated)
+## Attack Progression
 
 | Time | Event |
 |------|------|
-| T0 | Initial compromise via phishing |
-| T+2h | Credential abuse and lateral movement |
-| T+6h | Domain-wide access achieved |
-| T+8h | Ransomware deployment triggered |
-| T+10h | Systems encrypted, operations impacted |
+| T0 | Phishing email received |
+| T+2h | Credential compromise |
+| T+6h | Lateral movement |
+| T+8h | Domain-wide access |
+| T+10h | Ransomware deployed |
 
 ---
 
 ## Key Decision Points
 
-Participants must actively decide:
+Participants must decide:
 
-### 1. Containment Strategy
-- Immediate network shutdown vs. controlled isolation
-- Trade-off: speed vs. business disruption
-
-### 2. Ransom Payment
-- Legal, ethical, and operational considerations
-- Backup availability vs. recovery time
-
-### 3. Communication
-- When to inform:
-  - Employees
-  - Customers
-  - Regulators
-- Risk of reputational damage vs. transparency
-
-### 4. Production Impact
-- Continue limited operations vs. full shutdown
-- Dependency on IT systems
+- System isolation vs. full network shutdown
+- Ransom payment vs. recovery strategy
+- Internal and external communication timing
+- Production continuation vs. shutdown
 
 ---
 
@@ -87,34 +77,11 @@ Participants must actively decide:
 
 | Role | Responsibility |
 |------|--------------|
-| IT Security | Incident coordination, technical response |
-| IT Operations | System isolation, recovery |
-| Management | Strategic decisions, risk acceptance |
+| IT Security | Incident coordination |
+| IT Operations | System containment and recovery |
+| Management | Strategic decisions |
 | Legal & Compliance | Regulatory obligations |
-| Communications | Internal & external messaging |
-
----
-
-## Incident Response Phases
-
-### Detection
-- EDR alerts and anomaly detection
-- Initial triage and validation
-
-### Containment
-- Isolation of infected systems
-- Blocking lateral movement
-- Account lockdown
-
-### Eradication
-- Malware removal
-- Patch vulnerabilities
-- Remove persistence mechanisms
-
-### Recovery
-- Restore systems from backups
-- Validate integrity
-- Resume operations
+| Communications | Stakeholder communication |
 
 ---
 
@@ -123,17 +90,17 @@ Participants must actively decide:
 | Area | Impact |
 |------|-------|
 | Operations | Production delays |
-| Financial | Revenue loss, recovery costs |
+| Financial | Revenue loss and recovery costs |
 | Legal | Potential compliance violations |
-| Reputation | Customer trust damage |
+| Reputation | Loss of customer trust |
 
 ---
 
 ## Business Continuity Measures
 
-- Backup restoration strategy (offline backups)
-- Manual fallback processes for critical operations
-- Prioritization of core business functions
+- Use of offline backups
+- Manual fallback procedures
+- Prioritization of critical processes
 - Alternative communication channels
 
 ---
@@ -143,26 +110,24 @@ Participants must actively decide:
 - Patch management
 - Network segmentation
 - Access control (least privilege)
-- Monitoring & detection (EDR, logging)
-- Backup & recovery processes
+- Monitoring and detection
+- Backup and recovery
 
 ---
 
 ## Lessons Learned
 
-- Delayed patching significantly increased impact
-- Lack of segmentation enabled lateral movement
-- Backup strategy must be tested regularly
-- Incident response roles must be clearly defined
+- Delayed patching increased risk exposure
+- Lack of segmentation enabled rapid spread
+- Backup processes must be regularly tested
+- Clear roles and escalation paths are critical
 
 ---
 
 ## Link to Risk Assessment
 
-This scenario directly relates to identified risks:
+This scenario is directly linked to identified risks:
 
-- Ransomware infection due to outdated patching
+- Ransomware due to outdated patching
 - Insufficient network segmentation
 - Weak access control mechanisms
-
-The tabletop exercise validates the effectiveness of defined mitigation strategies.
