@@ -1,43 +1,71 @@
 # Statement of Applicability (SoA)
 
+---
+
 ## Objective
-Define applicable ISO 27001 controls and justify their inclusion based on identified risks.
 
-## Scope
-Mid-sized automotive supplier with focus on production systems, office IT, and supplier integration.
+The Statement of Applicability defines which ISO 27001 controls are:
 
----
+- applicable  
+- implemented  
+- excluded  
 
-## Control Selection Overview
-
-| Control Area              | Included | Justification                                      |
-|---------------------------|----------|----------------------------------------------------|
-| Access Control            | Yes      | Protection of sensitive systems and data           |
-| Backup & Recovery         | Yes      | Mitigation of ransomware and system failures       |
-| Incident Management       | Yes      | Required for structured incident handling          |
-| Supplier Security         | Yes      | Strong dependency on external suppliers            |
-| Asset Management          | Yes      | Identification of critical systems                 |
-| Cryptography              | No       | Not critical in current simplified scenario        |
-| Physical Security         | No       | Out of scope for this project                      |
+and provides justification for each decision.
 
 ---
 
-## Mapping to Implemented Controls
+## Scope Reference
 
-| Control Area        | Implementation                              |
-|--------------------|----------------------------------------------|
-| Access Control     | access-control-policy.md                     |
-| Backup             | backup-policy.md                             |
-| Incident Response  | incident-response-policy.md                  |
-| Supplier Security  | Risk Assessment + contractual measures       |
+The SoA is aligned with the defined ISMS scope:
+
+- Office IT  
+- Production systems  
+- Supplier interfaces  
 
 ---
 
-## Summary
+## Control Selection Approach
 
-The selected controls reflect the main risk drivers:
-- Production downtime
-- Human error (phishing)
-- Supplier dependencies
+Controls are selected based on:
 
-The SoA ensures alignment between identified risks and implemented controls.
+- identified risks  
+- business relevance  
+- implementation feasibility  
+
+The focus is on selecting controls that provide **effective risk reduction**, rather than maximum coverage.
+
+---
+
+## Selected Controls (Example)
+
+| Control | Description | Status | Justification |
+|--------|-------------|--------|--------------|
+| Access Control | Management of user access rights | Implemented | Critical for protecting systems and data |
+| Backup | Data backup and recovery procedures | Implemented | Ensures business continuity |
+| Supplier Security | Third-party risk management | Implemented | High dependency on suppliers |
+| Cryptography | Encryption mechanisms | Partially | Limited scope relevance |
+| Physical Security | Physical access protection | Not Applicable | Out of defined ISMS scope |
+
+---
+
+## Interpretation
+
+The SoA demonstrates:
+
+- alignment between risks and controls  
+- structured decision-making  
+- understanding of ISO 27001 requirements  
+
+It is not intended to be exhaustive, but to reflect a **realistic and justifiable control set**.
+
+---
+
+## Outcome
+
+The SoA provides:
+
+- transparency in control selection  
+- traceability to identified risks  
+- a foundation for further ISMS development  
+
+It serves as a key artifact linking **risk assessment and control implementation**.
