@@ -1,4 +1,4 @@
-# ISMS Implementation (ISO 27001)
+# ISO 27001-aligned ISMS Implementation
 
 ## Scenario
 Mid-sized automotive supplier (Germany) with strong dependency on production uptime and supplier integration.
