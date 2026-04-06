@@ -4,6 +4,42 @@
 
 ## Overview
 
+This section defines the core policies required to support the ISMS.
+
+The policies establish governance structures, responsibilities, and minimum required controls.
+
+---
+
+## Included Policies
+
+- Access Control Policy  
+- Backup & Recovery Policy  
+- Incident Response Policy  
+
+---
+
+## Design Principles
+
+The policies are designed to be:
+
+- concise and actionable  
+- aligned with ISO 27001 expectations  
+- realistic in implementation  
+
+---
+
+## Objective
+
+To provide a policy framework that:
+
+- enables consistent security practices  
+- supports governance and accountability  
+- ensures clarity of responsibilities  # Security Policies
+
+---
+
+## Overview
+
 This section contains core policies supporting the ISMS.
 
 The policies are designed to be:
