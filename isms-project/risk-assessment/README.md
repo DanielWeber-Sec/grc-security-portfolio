@@ -6,24 +6,26 @@
 
 This module contains a structured risk assessment aligned with ISO 27001 principles.
 
-The objective is to identify and prioritize risks based on their business impact and likelihood.
+The objective is to identify, evaluate, and prioritize risks based on their business impact, enabling informed decision-making and targeted control selection.
 
 ---
 
 ## Methodology
 
-Risks are evaluated using:
+Risks are evaluated using a simple and transparent scoring model:
 
-- Likelihood (1–5)  
-- Impact (1–5)  
+- Likelihood (scale 1–5)  
+- Impact (scale 1–5)  
 
 Risk Score = Likelihood × Impact  
 
-Impact considers:
+Impact is assessed across multiple dimensions:
 
 - operational disruption  
 - financial impact  
 - reputational damage  
+
+This ensures that risks are evaluated in a business-relevant context, not just from a technical perspective.
 
 ---
 
@@ -31,14 +33,32 @@ Impact considers:
 
 The assessment focuses on critical systems and processes within a production-driven environment.
 
+Special attention is given to areas where security incidents could directly affect operations, delivery capability, or customer trust.
+
 ---
 
 ## Key Risk Scenarios
 
-- Production downtime due to system failure  
-- Ransomware incidents affecting operational systems  
-- Phishing and credential compromise  
-- Supplier-related security risks  
+The assessment includes scenario-based risk identification, such as:
+
+- production downtime due to system failure  
+- ransomware incidents affecting operational systems  
+- phishing and credential compromise  
+- supplier-related security risks  
+
+These scenarios reflect typical threat patterns in industrial and supply-chain environments.
+
+---
+
+## Approach
+
+The assessment is supported by a structured risk register, providing traceability from identified risks to evaluation and treatment decisions.
+
+The focus is on:
+
+- prioritizing risks based on business impact  
+- enabling transparent decision-making  
+- linking risks directly to control selection  
 
 ---
 
@@ -47,13 +67,17 @@ The assessment focuses on critical systems and processes within a production-dri
 The result is a prioritized risk landscape that:
 
 - highlights critical risks  
-- supports decision-making  
-- directly informs control selection  
+- supports management decision-making  
+- directly informs control definition and implementation  
 
 ---
 
 ## Artifacts
 
-- Risk Register (Excel-based)  
-- Risk scoring model  
-- Scenario-based definitions  
+- Risk Register (Excel)  
+  👉 `Risk_Register_ISMS.xlsx`
+
+- Risk Register Preview  
+  👉 `Risk-Register-Preview.png`
+
+The risk register provides a structured and prioritized view of identified risks, including scoring, ownership, and proposed treatment measures.
