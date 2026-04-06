@@ -1,82 +1,59 @@
-# Risk Assessment – Automotive Supplier
+# Risk Assessment
 
 ---
 
-## Objective
+## Overview
 
-To identify, assess, and prioritize information security risks in a production-driven environment.
+This module contains a structured risk assessment aligned with ISO 27001 principles.
 
-The focus is on risks with direct operational and business impact, ensuring practical relevance for decision-making.
-
----
-
-## Scope
-
-The assessment focuses on the IT environment of a mid-sized automotive supplier, including:
-
-- Customer CRM systems
-- Internal IT infrastructure
-- Supplier integrations
-- User access and identity management
+The objective is to identify and prioritize risks based on their business impact and likelihood.
 
 ---
 
 ## Methodology
 
-The risk assessment follows ISO 27001 principles using a structured 5x5 risk matrix.
+Risks are evaluated using:
 
-Risk Score = Likelihood × Impact
+- Likelihood (1–5)  
+- Impact (1–5)  
 
-- Likelihood: 1 (Very Low) to 5 (Very High)  
-- Impact: 1 (Very Low) to 5 (Very High)
+Risk Score = Likelihood × Impact  
 
-This approach ensures consistent and comparable risk evaluation across all identified assets.
+Impact considers:
 
----
-
-## Impact Criteria
-
-Impact is assessed across:
-
-- Financial damage  
-- Operational disruption  
-- Reputational impact  
+- operational disruption  
+- financial impact  
+- reputational damage  
 
 ---
 
-## Likelihood Criteria
+## Scope
 
-Likelihood reflects the probability of occurrence based on:
-
-- Threat exposure  
-- Existing controls  
-- Typical attack patterns  
+The assessment focuses on critical systems and processes within a production-driven environment.
 
 ---
 
-## Risk Levels
+## Key Risk Scenarios
 
-- 1–5 → Low  
-- 6–14 → Medium  
-- 15–25 → High  
-
----
-
-## Residual Risk
-
-Residual risk reflects the remaining risk after implementing controls.
-
-Residual Risk = Residual Likelihood × Residual Impact
-
-This allows evaluating the effectiveness of mitigation measures.
+- Production downtime due to system failure  
+- Ransomware incidents affecting operational systems  
+- Phishing and credential compromise  
+- Supplier-related security risks  
 
 ---
 
-## Risk Register (Detailed)
+## Outcome
 
-The full risk register includes structured risk evaluation, treatment planning, and residual risk calculation.
+The result is a prioritized risk landscape that:
 
-![Risk Register Preview](risk-register-preview.png)
+- highlights critical risks  
+- supports decision-making  
+- directly informs control selection  
 
-Full dataset:  
-[risk-register.xlsx](risk-register.xlsx)
+---
+
+## Artifacts
+
+- Risk Register (Excel-based)  
+- Risk scoring model  
+- Scenario-based definitions  
