@@ -1,6 +1,6 @@
 # grc-security-portfolio
 
-Practical GRC & ISMS portfolio — ISO 27001, risk management, and security governance
+This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and implementable controls in a real-world business context.
 
 ---
 
