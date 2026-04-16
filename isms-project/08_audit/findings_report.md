@@ -1,58 +1,95 @@
-# Example Audit Findings
+## Audit Findings Report
 
 ---
 
-## Finding 1: Incomplete Logging Coverage
+### Overview
 
-- Area: Monitoring
-- Severity: Medium
+This report summarizes key findings identified during the internal audit of the ISMS.
 
-### Description
-
-Logging is implemented but not consistently across all systems.
-
-### Risk
-
-Limited visibility into security incidents.
-
-### Recommendation
-
-Implement centralized logging and correlation.
+The objective is to evaluate the effectiveness of implemented controls and identify areas for improvement.
 
 ---
 
-## Finding 2: Missing Supplier Risk Assessments
+### Audit Scope
 
-- Area: Supplier Security
-- Severity: High
+The audit covered:
 
-### Description
-
-No formal process for assessing third-party security risks.
-
-### Risk
-
-Exposure to supply chain vulnerabilities.
-
-### Recommendation
-
-Introduce structured supplier risk management process.
+- risk management processes  
+- implemented security controls  
+- incident response capabilities  
+- documentation and governance  
 
 ---
 
-## Finding 3: Backup Testing Not Performed
+### Summary
 
-- Area: Business Continuity
-- Severity: Medium
+The ISMS is generally well-structured and aligned with ISO 27001 principles.
 
-### Description
+However, several areas require improvement to ensure consistent implementation and operational effectiveness.
 
-Backups exist but recovery procedures are not tested.
+---
 
-### Risk
+### Key Findings
 
-Uncertainty in recovery capability.
+#### 1. Incomplete Documentation of Procedures
 
-### Recommendation
+Some operational procedures are defined at a high level but lack detailed implementation guidance.
 
-Perform regular backup restoration tests.
+**Impact:**  
+Inconsistent execution during real incidents.
+
+**Recommendation:**  
+Define step-by-step procedures for critical processes.
+
+---
+
+#### 2. Limited Testing of Incident Response
+
+Incident response processes are defined but have not been consistently tested under realistic conditions.
+
+**Impact:**  
+Uncertainty in effectiveness during high-pressure situations.
+
+**Recommendation:**  
+Conduct regular tabletop exercises and simulations.
+
+---
+
+#### 3. Gaps in Asset Visibility
+
+Asset inventory exists but is not consistently maintained across all systems.
+
+**Impact:**  
+Incomplete understanding of affected systems during incidents.
+
+**Recommendation:**  
+Improve asset tracking and regular updates.
+
+---
+
+#### 4. Business Continuity Not Fully Integrated
+
+Business continuity measures are defined but not fully aligned with incident response processes.
+
+**Impact:**  
+Potential delays in recovery and unclear responsibilities.
+
+**Recommendation:**  
+Improve integration between BCM and incident response.
+
+---
+
+### Positive Observations
+
+- clear ISMS structure  
+- defined roles and responsibilities  
+- risk-based approach implemented  
+- strong alignment with governance principles  
+
+---
+
+### Conclusion
+
+The ISMS provides a solid foundation, but operational maturity can be improved by enhancing procedures, testing, and integration between processes.
+
+---
