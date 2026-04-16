@@ -49,7 +49,7 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## 🔥 Injects (Simulation Events)
+## Injects (Simulation Events)
 
 - CEO calls: "Are we operational?"  
 - Customer reports production outage  
@@ -60,7 +60,7 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## 🔥 Decision Points
+## Decision Points
 
 - Shut down network to contain spread?  
 - Activate Business Continuity Plan?  
@@ -70,7 +70,7 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## 🔥 Expected Actions
+## Expected Actions
 
 - IT isolates affected systems immediately  
 - Incident Response Team is activated  
@@ -80,7 +80,7 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## 🔥 Affected Areas
+## Affected Areas
 
 | Area        | Impact |
 |------------|--------|
@@ -92,7 +92,7 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## 🔥 Escalation Trigger
+## Escalation Trigger
 
 - more than one critical system affected  
 - data exposure suspected  
