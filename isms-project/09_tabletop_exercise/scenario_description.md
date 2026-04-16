@@ -4,36 +4,38 @@
 
 ### Scenario
 
-A ransomware attack targets the production environment of the organization, affecting critical business systems and shared infrastructure.
+A ransomware attack impacts the organization’s production environment, affecting core business systems and shared infrastructure components.
+
+The incident originates from a phishing email that leads to unauthorized execution of malicious code within the internal network.
 
 ---
 
 ### Situation
 
-- critical systems become unavailable  
-- production processes are disrupted  
-- users report inability to access systems  
-- suspicious encryption activity is detected  
-- IT identifies lateral movement across the network  
+- production systems become partially unavailable  
+- users report restricted access to shared resources  
+- encryption activity is detected on multiple systems  
+- IT identifies signs of lateral movement within the network  
+- initial containment attempts reveal wider system impact than expected  
 
 ---
 
 ### Impact
 
-- production downtime  
-- potential financial losses  
-- reputational risk  
-- possible exposure of sensitive data  
-- disruption of supply chain operations  
+- disruption of production processes  
+- delays in order processing and delivery  
+- potential financial losses due to downtime  
+- increased risk of reputational damage  
+- possible exposure of internal and customer-related data  
 
 ---
 
 ### Initial Indicators
 
-- unusual system behavior  
-- multiple systems locked simultaneously  
-- ransom note detected  
-- abnormal network traffic patterns  
+- unusual system behavior reported by users  
+- multiple endpoints locked within a short timeframe  
+- ransom note detected on shared drives  
+- increased and abnormal network traffic between systems  
 
 ---
 
@@ -41,46 +43,45 @@ A ransomware attack targets the production environment of the organization, affe
 
 | Time  | Event |
 |-------|------|
-| 09:00 | Phishing email opened |
-| 09:10 | Malware execution |
-| 09:30 | Lateral movement detected |
+| 09:00 | Phishing email opened by employee |
+| 09:10 | Malicious code execution |
+| 09:30 | Lateral movement observed |
 | 10:00 | Multiple systems encrypted |
-| 10:15 | Incident declared |
+| 10:15 | Incident officially declared |
 
 ---
 
-## Injects (Simulation Events)
+### Injects (Simulation Events)
 
-- CEO calls: "Are we operational?"  
-- Customer reports production outage  
-- Media requests official statement  
-- IT reports encryption spreading to additional systems  
-- Supplier reports connection issues  
-- Internal users escalate complaints  
-
----
-
-## Decision Points
-
-- Shut down network to contain spread?  
-- Activate Business Continuity Plan?  
-- Notify customers and partners?  
-- Inform authorities (GDPR / NIS2)?  
-- Engage external incident response support?  
+- management requests immediate status update  
+- customers report inability to access services  
+- media inquiries begin to emerge  
+- IT reports increasing spread across additional systems  
+- external supplier indicates connection issues  
 
 ---
 
-## Expected Actions
+### Decision Points
 
-- IT isolates affected systems immediately  
-- Incident Response Team is activated  
-- Management initiates crisis coordination  
-- Legal evaluates reporting obligations  
-- Communication prepares internal and external messaging  
+- should affected systems be isolated immediately?  
+- is a full network shutdown required to contain the spread?  
+- should customers and partners be informed at this stage?  
+- do regulatory notification obligations apply (e.g., GDPR)?  
+- is external incident response support required?  
 
 ---
 
-## Affected Areas
+### Expected Actions and Response Measures
+
+- IT isolates affected systems to prevent further propagation  
+- incident response team is activated and coordinated  
+- management initiates structured crisis response  
+- legal assesses potential reporting obligations  
+- communication prepares internal updates and external statements  
+
+---
+
+### Impacted Business Areas
 
 | Area        | Impact |
 |------------|--------|
@@ -92,16 +93,16 @@ A ransomware attack targets the production environment of the organization, affe
 
 ---
 
-## Escalation Trigger
+### Escalation Criteria
 
-- more than one critical system affected  
-- data exposure suspected  
-- production downtime exceeds defined threshold  
+- multiple critical systems affected simultaneously  
+- suspected exposure of sensitive or personal data  
+- production downtime exceeds defined thresholds  
 
-→ escalate to **Crisis Management Team**
+→ escalation to Crisis Management Team
 
 ---
 
 ### Objective
 
-Understand how the organization detects, responds, and recovers from a high-impact cybersecurity incident, including technical, operational, and management decision-making.
+Evaluate how the organization detects, assesses, and manages a high-impact cybersecurity incident, including coordination between technical teams, management, and external stakeholders.
