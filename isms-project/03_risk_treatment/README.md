@@ -6,54 +6,34 @@
 ██║  ██║██║███████║██║  ██╗       ██║   ██║  ██║███████╗██║  ██║   ██║   ██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   
 ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝       ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
 ```
-# 03 – Risk Treatment
+# Risk Treatment
 
----
+## Objective
 
-## Overview
-
-This section defines how identified risks are handled and mitigated.
-
-It translates risk assessment results into concrete actions, ensuring that risks are either reduced, accepted, transferred, or avoided based on business priorities.
-
----
-
-## Scope
-
-The focus lies on:
-
-- defining appropriate risk treatment strategies
-- selecting relevant security controls
-- planning and tracking mitigation measures
-- evaluating residual risks
+To define structured and actionable measures for mitigating identified risks and reducing them to an acceptable level.
 
 ---
 
 ## Approach
 
-Risk treatment is based on a structured decision process:
+Risk treatment follows a structured process:
 
-1. Evaluate risk level and business impact
-2. Determine appropriate treatment strategy
-3. Select and assign controls
-4. Define and document treatment actions
-5. Assess residual risk after implementation
+- Identify appropriate controls based on risk level  
+- Align controls with business priorities and feasibility  
+- Define implementation responsibilities and timelines  
+
+---
+
+## Key Decisions
+
+- Focus on pragmatic and implementable controls  
+- Avoid over-engineering and unnecessary complexity  
+- Prioritize high-impact risks  
 
 ---
 
 ## Outcome
 
-The result is a transparent and structured treatment approach that:
-
-- aligns security measures with business objectives
-- ensures accountability and traceability
-- supports informed risk acceptance decisions
-
----
-
-## Artifacts
-
-- Risk Treatment Strategy
-- Risk Treatment Plan
-- Control Selection
-- Residual Risk Evaluation
+- Defined risk treatment plan aligned with business priorities  
+- Clear mapping between risks and controls  
+- Basis for implementation and monitoring  
