@@ -8,38 +8,32 @@
 ```
 # Tabletop Exercise
 
----
-
-## Overview
-
-This module simulates a realistic cybersecurity incident to demonstrate how the ISMS supports structured incident handling and decision-making.
-
----
-
 ## Objective
 
-To validate:
-
-- incident response capabilities
-- coordination between stakeholders
-- effectiveness of defined policies and controls
+To validate incident response and business continuity capabilities through a simulated ransomware scenario.
 
 ---
 
-## Scenario
+## Approach
 
-A ransomware attack affecting production systems and critical business operations.
+A structured tabletop exercise simulating:
+
+- Detection of a ransomware incident  
+- Decision-making under pressure  
+- Coordination between stakeholders  
 
 ---
 
-## Components
+## Key Decisions
 
-- scenario description
-- response flow
-- lessons learned
+- Focus on decision-making rather than technical details  
+- Emphasize role clarity and escalation paths  
+- Simulate realistic business impact  
 
 ---
 
 ## Outcome
 
-Provides insight into operational readiness and highlights improvement areas in incident response and resilience.
+- Improved understanding of incident response processes  
+- Identification of gaps in coordination and communication  
+- Strengthened readiness for real-world incidents  
