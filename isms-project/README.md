@@ -196,4 +196,34 @@ This project demonstrates the ability to:
 - Structure complex security requirements into a coherent system  
 - Translate risks into actionable controls  
 - Align security measures with business priorities  
-- Design governance frameworks that are practical and auditable  
+- Design governance frameworks that are practical and auditable
+
+---
+
+## About Me
+
+I am an IT professional with a background in project management and requirements engineering, transitioning into Information Security Governance and GRC.
+
+My focus is on:
+
+- Structuring complex environments into manageable systems  
+- Translating technical risks into business decisions  
+- Aligning security with real-world operational needs  
+
+This portfolio reflects my approach: practical, structured, and business-oriented.
+
+I am particularly interested in roles such as:
+
+- Information Security / ISMS Consultant  
+- GRC / Information Risk Management  
+- Security Governance roles  
+
+---
+
+## Contact
+
+If you are interested in discussing opportunities or my approach:
+
+- LinkedIn: [Daniel Weber](https://www.linkedin.com/in/daniel-weber-594a81156/)
+- GitHub: https://github.com/DanielWeber-Sec  
+
