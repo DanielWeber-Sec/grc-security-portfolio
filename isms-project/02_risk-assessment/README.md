@@ -8,35 +8,33 @@
 ```
 # Risk Assessment
 
+---
+
 ## Objective
 
-To establish a structured and business-relevant risk assessment methodology that enables prioritization, transparency, and decision-making.
+To identify, evaluate, and prioritize information security risks based on business impact.
 
 ---
 
-## Approach
+## Methodology
 
-A qualitative risk model based on:
+Risk is evaluated using:
 
-- Likelihood (1–5)
-- Impact (1–5)
-
-Risk Score = Likelihood × Impact
-
-The model is designed to be simple, understandable, and usable for management-level decisions.
+Risk = Likelihood × Impact
 
 ---
 
-## Key Decisions
+## Focus
 
-- Focus on business impact rather than purely technical severity  
-- Use a qualitative model to ensure usability and communication clarity  
-- Prioritize transparency over theoretical complexity  
+- Identification of threats and vulnerabilities  
+- Evaluation of business impact  
+- Prioritization of risks  
+- Basis for control selection  
 
 ---
 
 ## Outcome
 
-- Clear prioritization of risks based on business relevance  
-- Direct linkage between risks and control selection  
-- Structured input for risk treatment and governance decisions  
+- Structured risk register  
+- Transparent prioritization  
+- Foundation for risk treatment  
