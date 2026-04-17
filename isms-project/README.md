@@ -202,21 +202,39 @@ This project demonstrates the ability to:
 
 ## About Me
 
-I am an IT professional with a background in project management and requirements engineering, transitioning into Information Security Governance and GRC.
+I am an IT professional with over 10 years of experience in complex IT environments, specializing in project management, requirements engineering, and the structuring of business-critical systems.
 
-My focus is on:
+I focus on Information Security Governance, GRC, and ISMS implementation — with a strong emphasis on translating risk into clear, actionable business decisions.
 
-- Structuring complex environments into manageable systems  
-- Translating technical risks into business decisions  
-- Aligning security with real-world operational needs  
+My core strength is bridging the gap between technical complexity and management-level clarity.
 
-This portfolio reflects my approach: practical, structured, and business-oriented.
+I approach security as a management system, not a technical checkbox.
 
-I am particularly interested in roles such as:
+---
+
+### What I bring
+
+- Structured, risk-based decision-making (Likelihood × Impact driven)
+- Ability to translate security requirements into implementable controls
+- Strong stakeholder alignment across business and IT
+- Practical, real-world approach to ISMS (ISO 27001 aligned)
+- Clear prioritization in complex, high-dependency environments
+
+---
+
+### How I work
+
+I bring structure into unclear situations, reduce complexity, and focus on what actually matters for the business.
+
+Security, in my view, is not about maximum control — but about effective, prioritized control.
+
+---
+
+### Target Roles
 
 - Information Security / ISMS Consultant  
 - GRC / Information Risk Management  
-- Security Governance roles  
+- Security Governance  
 
 ---
 
