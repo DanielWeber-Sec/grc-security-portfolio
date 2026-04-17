@@ -11,9 +11,6 @@
 
 ---
 
-# ISMS Implementation Project (ISO 27001 aligned)
-
----
 
 ## Overview
 
