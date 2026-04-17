@@ -34,11 +34,13 @@ risk identification → risk evaluation → control selection → policy design 
 
 ## What this portfolio demonstrates
 
-- Ability to structure an ISMS from a realistic business scenario  
-- Translation of risks into actionable controls and policies  
-- Alignment between technical security measures and business priorities  
-- Understanding of governance, accountability, and decision-making structures  
-
+- End-to-end implementation of an ISO 27001-aligned ISMS in a realistic business scenario  
+- Translation of security requirements into structured governance and actionable controls  
+- Risk-based decision-making using qualitative risk assessment (Likelihood × Impact)  
+- Design and prioritization of security measures based on business impact  
+- Alignment between technical controls, business processes, and stakeholder expectations  
+- Understanding of governance structures, accountability, and audit readiness  
+- Practical approach to incident response, business continuity, and continuous improvement  
 ---
 
 ## Projects
