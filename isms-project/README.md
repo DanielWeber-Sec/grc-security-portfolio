@@ -60,6 +60,44 @@ The implementation follows a consistent, risk-based lifecycle:
 
 ---
 
+## Decision-Making Example
+
+To demonstrate the applied risk-based approach, the following example illustrates how risks are evaluated and translated into concrete actions.
+
+**Scenario:**  
+A ransomware attack affecting production systems.
+
+**Assessment:**
+
+- Likelihood: 4 (Likely)  
+- Impact: 5 (Critical)  
+- Risk Score: 20 (High)
+
+**Analysis:**
+
+- High operational dependency on system availability  
+- Significant financial impact due to production downtime  
+- Reputational risk towards customers and partners  
+
+**Decision:**
+
+Risk must be treated immediately.
+
+**Selected Measures:**
+
+- Implementation of regular, tested backups  
+- Network segmentation of production systems  
+- Endpoint protection and monitoring  
+- Defined incident response procedures  
+
+**Rationale:**
+
+The selected controls reduce both likelihood (through prevention) and impact (through recovery capability), aligning with business continuity requirements.
+
+---
+
+## Key Components
+
 ## Key Components
 
 ### Scope & Context
