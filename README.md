@@ -8,8 +8,9 @@
 ```
 
 # grc-security-portfolio
+This portfolio showcases a practical, end-to-end implementation of an Information Security Management System (ISMS) aligned with ISO 27001.
 
-This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and implementable controls in a real-world business context.
+It focuses on translating security requirements into structured governance, risk-based decision-making, and implementable controls in a real-world business context.
 
 ![ISMS Overview](./assets/isms-overview.png)
 
