@@ -46,35 +46,47 @@ risk identification → risk evaluation → control selection → policy design 
 ## Projects
 
 ### ISMS Implementation (ISO 27001 aligned)
-Design and structuring of a practical ISMS including scope definition, asset identification, risk assessment, control selection, and policy framework.
+
+Designed and structured a full Information Security Management System (ISMS) for a mid-sized organization, covering scope definition, asset identification, risk assessment, control selection, policy framework, and governance integration.
+
+Focus on translating abstract security requirements into practical, business-aligned decisions and implementable controls.
 
 👉 `/isms-project`
 
 ---
 
 ### Risk Assessment
-Structured risk evaluation with business impact focus, prioritization logic, and linkage to control selection.
 
-👉 `/isms-project/risk-assessment`
+Developed a qualitative risk assessment model based on Likelihood × Impact to support prioritization, treatment planning, and management decision-making.
+
+Focus on identifying relevant risks, evaluating business impact, and linking assessment results directly to control selection.
+
+👉 `/isms-project/02_risk-assessment`
 
 ---
 
 ### Security Policies
-Definition of concise and implementable policies aligned with ISO 27001 expectations.
 
-👉 `/isms-project/security-policies`
+Defined concise, implementable security policies aligned with ISO 27001 expectations and designed to support accountability, consistency, and operational applicability.
+
+👉 `/isms-project/05_policies`
 
 ---
 
 ### Tabletop Exercise
-Simulation of a ransomware incident to validate incident response and business continuity capabilities.
 
-👉 `/isms-project/tabletop-exercise`
+Simulated a ransomware incident scenario to validate incident response and business continuity capabilities.
+
+Focus on decision-making under pressure, role clarity, escalation paths, and structured response coordination.
+
+👉 `/isms-project/09_tabletop_exercise`
 
 ---
 
 ## Positioning
 
-This portfolio represents a transition from IT project management into information security governance.
+This portfolio reflects a governance-focused approach to information security, combining structured thinking, risk-based decision-making, and practical implementation.
 
-The focus lies on structuring complex environments, aligning stakeholders, and enabling informed, risk-based decisions — rather than purely technical security operations.
+My background in IT project management strengthens alignment between business objectives, stakeholder expectations, and security requirements.
+
+The focus is not on purely technical security operations, but on translating complexity into clear structures, priorities, and actionable security decisions.
