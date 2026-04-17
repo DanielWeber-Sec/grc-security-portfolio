@@ -8,32 +8,30 @@
 ```
 # Tabletop Exercise
 
+---
+
 ## Objective
 
-To validate incident response and business continuity capabilities through a simulated ransomware scenario.
+Validate incident response and business continuity capabilities.
 
 ---
 
-## Approach
+## Scenario
 
-A structured tabletop exercise simulating:
+Simulated ransomware attack on critical systems.
 
-- Detection of a ransomware incident  
+---
+
+## Focus
+
 - Decision-making under pressure  
-- Coordination between stakeholders  
-
----
-
-## Key Decisions
-
-- Focus on decision-making rather than technical details  
-- Emphasize role clarity and escalation paths  
-- Simulate realistic business impact  
+- Role clarity and escalation  
+- Structured response coordination  
 
 ---
 
 ## Outcome
 
-- Improved understanding of incident response processes  
-- Identification of gaps in coordination and communication  
-- Strengthened readiness for real-world incidents  
+- Identified gaps in response  
+- Improved coordination  
+- Strengthened resilience  
