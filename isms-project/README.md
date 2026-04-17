@@ -267,3 +267,14 @@ If you are interested in discussing opportunities or my approach:
 - LinkedIn: [Daniel Weber](https://www.linkedin.com/in/daniel-weber-594a81156/)
 - GitHub: https://github.com/DanielWeber-Sec  
 
+## Why This Matters
+
+Many organizations struggle not because of missing security measures, but because of missing structure, prioritization, and alignment with business objectives.
+
+This project demonstrates how security can be translated from abstract requirements into:
+
+- Clear decision-making structures  
+- Business-aligned prioritization  
+- Implementable and auditable controls  
+
+The focus is not on theoretical completeness, but on practical effectiveness.
