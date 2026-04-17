@@ -14,6 +14,8 @@ It focuses on translating security requirements into structured governance, risk
 
 ![ISMS Overview](./assets/isms-overview.png)
 
+*Structured. Practical. Risk-based.*
+
 ---
 
 ## GRC & Information Security Portfolio
