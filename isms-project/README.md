@@ -7,20 +7,19 @@
 ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   
 ```
 
-# ISMS Implementation Project (ISO 27001 Aligned)
+# ISMS Implementation Project (ISO 27001 aligned)
+
+## Executive Summary
+
+This project demonstrates the structured implementation of an Information Security Management System (ISMS) aligned with ISO 27001.
+
+The objective was to design a practical, business-aligned security framework for a mid-sized organization, focusing on risk-based decision-making, clear governance structures, and implementable controls.
+
+Rather than focusing on technical depth alone, this project emphasizes translating security requirements into management-level decisions and operationally viable structures.
 
 ---
 
-
-## Overview
-
-This project demonstrates the design and implementation of an Information Security Management System (ISMS) aligned with ISO 27001.
-
-It follows a structured, risk-based approach and focuses on translating security requirements into practical, business-aligned decisions and implementable controls.
-
----
-
-## Scenario
+## Business Scenario
 
 The ISMS is designed for a mid-sized automotive supplier operating in a production-driven and regulated environment.
 
@@ -29,21 +28,44 @@ Key characteristics:
 - High dependency on system availability  
 - Integration with external suppliers  
 - Handling of sensitive operational and customer data  
-- Increasing use of cloud-based collaboration tools  
+- Increasing regulatory and compliance pressure  
+
+The objective was to create a security management system that supports business continuity, risk transparency, and decision-making.
 
 ---
 
-## Objective
+## My Role
 
-The objective is to establish a structured security management system that:
-
-- Identifies and evaluates relevant risks  
-- Enables informed, risk-based decision-making  
-- Defines clear governance structures and responsibilities  
-- Implements appropriate security controls  
-- Supports audit readiness and continuous improvement  
+- Structuring the ISMS framework end-to-end  
+- Defining scope, assets, and risk methodology  
+- Translating risks into concrete controls and policies  
+- Aligning technical measures with business priorities  
+- Designing governance and decision-making structures  
 
 ---
+
+## Key Outcomes
+
+- Established a structured, ISO 27001-aligned ISMS framework  
+- Implemented a qualitative risk model (Likelihood × Impact)  
+- Defined actionable controls linked directly to identified risks  
+- Created governance structures supporting accountability and audit readiness  
+- Integrated incident response and business continuity considerations  
+
+---
+
+## Approach
+
+The implementation follows a consistent, risk-based lifecycle:
+
+1. Scope & Context Definition  
+2. Asset Identification & Classification  
+3. Risk Assessment (Likelihood × Impact)  
+4. Risk Treatment & Control Selection  
+5. Policy Definition & Governance Structuring  
+6. Implementation & Documentation  
+7. Monitoring & Continuous Improvement  
+8. Audit Preparation  
 
 ## Approach
 
