@@ -11,6 +11,8 @@
 
 This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and implementable controls in a real-world business context.
 
+![ISMS Overview](./assets/isms-overview.png)
+
 ---
 
 ## GRC & Information Security Portfolio
