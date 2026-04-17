@@ -7,45 +7,34 @@
 ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝       ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝╚═╝╚══════╝╚══════╝
 ```╚═════╝ ╚══════╝╚═╝ ╚═════╝╚═╝╚══════╝╚══════╝
 ```
-# 05 – Security Policies
-
----
-
-## Overview
-
-This section defines key security policies forming the foundation of the ISMS.
-
-The policies translate security requirements into clear, enforceable rules and procedures.
-
----
-
-## Scope
-
-The policies apply to all systems, users, and processes within the defined ISMS scope.
-
----
-
-## Policy Set
-
-The following core policies are included:
-
-- Access Control Policy  
-- Incident Response Policy  
-- Backup Policy  
-- Acceptable Use Policy  
-
----
+# Security Policies
 
 ## Objective
 
-The objective is to ensure:
-
-- consistent and enforceable security practices  
-- clear responsibilities and expectations  
-- alignment with ISO 27001 control requirements  
+To define clear, concise, and implementable security policies aligned with ISO 27001 requirements.
 
 ---
 
-## Note
+## Approach
 
-These policies are intentionally simplified but structured to reflect real-world implementation and audit readiness.
+Policies are designed to:
+
+- Be understandable and actionable  
+- Support accountability and governance  
+- Align with real operational processes  
+
+---
+
+## Key Decisions
+
+- Focus on clarity over formal complexity  
+- Ensure policies are usable in day-to-day operations  
+- Align policies with risk assessment and control objectives  
+
+---
+
+## Outcome
+
+- Structured set of policies supporting ISMS governance  
+- Clear responsibilities and expectations  
+- Foundation for audit readiness and compliance  
