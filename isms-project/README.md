@@ -11,117 +11,156 @@
 
 ---
 
+# ISMS Implementation Project (ISO 27001 aligned)
+
+---
+
 ## Overview
 
-This repository shows a structured implementation of an Information Security Management System (ISMS) aligned with ISO 27001.
+This project demonstrates the design and implementation of an Information Security Management System (ISMS) aligned with ISO 27001.
 
-The focus is on:
-
-- risk-based decision-making  
-- clear governance structures  
-- practical implementation in a production environment  
-
-The ISMS is designed as a management tool, not just a compliance exercise.
+It follows a structured, risk-based approach and focuses on translating security requirements into practical, business-aligned decisions and implementable controls.
 
 ---
 
 ## Scenario
 
-The ISMS is designed for a mid-sized automotive supplier.
+The ISMS is designed for a mid-sized automotive supplier operating in a production-driven and regulated environment.
 
 Key characteristics:
 
-- high dependency on system availability  
-- integration with external suppliers  
-- handling of sensitive operational and customer data  
-- increasing use of cloud services  
-
-Security decisions must align with operational constraints and business priorities.
+- High dependency on system availability  
+- Integration with external suppliers  
+- Handling of sensitive operational and customer data  
+- Increasing use of cloud-based collaboration tools  
 
 ---
 
-## Structure
+## Objective
 
-The repository follows the lifecycle of an ISMS:
+The objective is to establish a structured security management system that:
 
-1. Scope & Context  
-   Definition of environment, assets, and stakeholders  
-
-2. Risk Assessment  
-   Identification and evaluation of risks  
-
-3. Risk Treatment  
-   Selection and prioritization of controls  
-
-4. Statement of Applicability (SoA)  
-   Mapping of risks to implemented controls  
-
-5. Security Policies  
-   Definition of rules and responsibilities  
-
-6. Control Mapping  
-   Alignment with ISO 27001 and related frameworks  
-
-7. Compliance Extension  
-   Integration of regulatory requirements (e.g., NIS2, GDPR)  
-
-8. Audit  
-   Evaluation of effectiveness and identification of gaps  
-
-9. Tabletop Exercise  
-   Simulation of incident response under realistic conditions  
-
-10. Business Continuity  
-    Recovery strategy and resilience planning  
+- Identifies and evaluates relevant risks  
+- Enables informed, risk-based decision-making  
+- Defines clear governance structures and responsibilities  
+- Implements appropriate security controls  
+- Supports audit readiness and continuous improvement  
 
 ---
 
-## Key Capabilities
+## Approach
 
-- structured risk assessment and prioritization  
-- translation of technical risks into business impact  
-- definition and implementation of controls  
-- alignment with ISO 27001 and regulatory requirements  
-- incident response planning and validation  
-- integration of security into business processes  
+The implementation follows a consistent, risk-based lifecycle:
+
+1. Scope & Context Definition  
+2. Asset Identification & Classification  
+3. Risk Assessment (Likelihood × Impact)  
+4. Risk Treatment & Control Selection  
+5. Policy Definition & Governance Structuring  
+6. Implementation & Documentation  
+7. Monitoring & Continuous Improvement  
+8. Audit Preparation  
 
 ---
 
-## Key Artifacts
+## Key Components
 
-- Risk Register  
-- Statement of Applicability (SoA)  
-- Security Policies  
-- Control Mapping Matrix  
-- Audit Findings  
-- Incident Response Scenario  
-- Business Continuity Plan  
+### Scope & Context
+👉 `/01_scope_context`
+
+Definition of ISMS scope, business environment, stakeholders, and relevant assets.
+
+---
+
+### Risk Assessment
+👉 `/02_risk-assessment`
+
+Development of a qualitative risk model based on Likelihood × Impact.
+
+Focus on:
+
+- Identifying relevant threats and vulnerabilities  
+- Evaluating business impact  
+- Prioritizing risks for treatment  
+
+---
+
+### Risk Treatment
+👉 `/03_risk_treatment`
+
+Definition of mitigation strategies and selection of appropriate controls.
+
+Focus on aligning security measures with business priorities and risk levels.
+
+---
+
+### Policies & Governance
+👉 `/05_policies`
+
+Design of structured and implementable security policies aligned with ISO 27001.
+
+Focus on clarity, accountability, and operational applicability.
+
+---
+
+### Control Mapping
+👉 `/06_control_mapping`
+
+Mapping of controls to ISO 27001 requirements and other relevant frameworks.
+
+Focus on traceability and audit readiness.
+
+---
+
+### Compliance Extension
+👉 `/07_compliance_extension`
+
+Extension of the ISMS towards regulatory requirements (e.g. GDPR context).
+
+---
+
+### Audit Preparation
+👉 `/08_audit`
+
+Preparation of audit artifacts, findings documentation, and improvement actions.
+
+---
+
+### Tabletop Exercise
+👉 `/09_tabletop_exercise`
+
+Simulation of a ransomware incident to validate incident response and business continuity.
+
+Focus on:
+
+- Decision-making under pressure  
+- Role clarity and escalation paths  
+- Structured response coordination  
+
+---
+
+### Business Continuity
+👉 `/10_business_continuity`
+
+Definition of recovery strategies and continuity planning.
+
+---
+
+## Key Takeaways
+
+- Security must be aligned with business objectives, not treated as a standalone function  
+- Risk-based decision-making is central to effective security governance  
+- Clear structures and responsibilities are critical for implementation  
+- Practical applicability is more important than theoretical completeness  
+- Continuous improvement is a core part of any ISMS  
 
 ---
 
 ## Outcome
 
-The result is a structured ISMS foundation that:
+This project demonstrates the ability to:
 
-- supports management decision-making  
-- provides traceability from risk to control  
-- reflects real operational constraints  
-- enables continuous improvement  
-
----
-
-## Purpose
-
-This project demonstrates how an ISMS can be designed and implemented in a practical and business-oriented way.
-
-The focus is on clarity, structure, and applicability.
-
----
-
-## Disclaimer
-
-This is a simplified implementation.
-
-It intentionally focuses on structure and decision-making instead of full operational depth.
-
-Real-world environments include additional complexity (e.g., legacy systems, organizational constraints, regulatory overlap).
+- Structure complex security requirements into a coherent system  
+- Translate risks into actionable controls  
+- Align security measures with business priorities  
+- Design governance frameworks that are practical and auditable  
