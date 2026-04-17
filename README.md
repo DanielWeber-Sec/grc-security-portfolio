@@ -19,6 +19,15 @@ It focuses on translating security requirements into clear structures, business-
 
 ---
 
+## Quick Navigation
+
+- 👉 [ISMS Implementation](./isms-project)
+- 👉 [Risk Assessment](./isms-project/02_risk-assessment)
+- 👉 [Security Policies](./isms-project/05_policies)
+- 👉 [Tabletop Exercise](./isms-project/09_tabletop_exercise)
+
+---
+
 ## About Me
 
 I am an IT professional with over 10 years of experience in complex IT environments, specializing in Information Security Governance, GRC, and ISMS implementation.
