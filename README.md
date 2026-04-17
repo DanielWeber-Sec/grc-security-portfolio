@@ -14,6 +14,31 @@ It focuses on translating security requirements into structured governance, risk
 
 ![ISMS Overview](./assets/isms-overview.png)
 
+![ISMS Overview](./assets/isms-overview.png)
+
+*Structured. Practical. Risk-based.*
+
+---
+
+## About Me
+
+I am an IT professional with over 10 years of experience in complex IT environments, focusing on Information Security Governance, GRC, and ISMS implementation.
+
+My strength lies in translating technical risks into structured, actionable business decisions.
+
+I approach security as a management system — not a technical checkbox.
+
+### What I bring
+
+- Risk-based decision-making (Likelihood × Impact)
+- Business-aligned security governance
+- Practical ISMS implementation (ISO 27001 aligned)
+- Strong interface between IT and management
+
+---
+
+## GRC & Information Security Portfolio
+
 *Structured. Practical. Risk-based.*
 
 ---
