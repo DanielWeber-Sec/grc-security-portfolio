@@ -98,8 +98,6 @@ The selected controls reduce both likelihood (through prevention) and impact (th
 
 ## Key Components
 
-## Key Components
-
 ### Scope & Context
 👉 `/01_scope_context`
 
