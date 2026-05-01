@@ -9,6 +9,20 @@ It complements the ISMS project by showing how theoretical risks translate into 
 
 ---
 
+## How to Navigate This Simulation
+
+This repository represents a full incident lifecycle.
+
+Follow the flow:
+
+1. Scenario → How the attack happens  
+2. Timeline → How it unfolds over time  
+3. Response → How it is handled  
+4. Governance → How decisions are made  
+5. Lessons Learned → What changes afterwards  
+
+This structure reflects how real-world incidents are analyzed and managed.
+
 ## Scenario
 
 A ransomware attack compromises a production system through a vulnerable externally exposed service.
