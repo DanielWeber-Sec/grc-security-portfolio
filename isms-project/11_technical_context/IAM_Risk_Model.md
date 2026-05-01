@@ -29,7 +29,7 @@ Risk Score = Likelihood (1–5) × Impact (1–5)
 
 ---
 
-### 🔑 1. Excessive Privileges
+###  1. Excessive Privileges
 
 **Description**  
 Users or service accounts have more permissions than required.
@@ -52,7 +52,7 @@ Compromise of high-value systems due to excessive permissions.
 
 ---
 
-### 🔁 2. Missing Joiner-Mover-Leaver Process
+###  2. Missing Joiner-Mover-Leaver Process
 
 **Description**  
 User access is not updated when employees join, change roles, or leave.
@@ -75,7 +75,7 @@ Former employees retain access to internal systems and sensitive data.
 
 ---
 
-### 🔐 3. Weak Authentication Mechanisms
+###  3. Weak Authentication Mechanisms
 
 **Description**  
 Systems rely on weak authentication (e.g., no MFA).
@@ -97,7 +97,7 @@ Attackers gain access to critical systems via compromised credentials.
 
 ---
 
-### 🔍 4. Lack of Access Reviews
+###  4. Lack of Access Reviews
 
 **Description**  
 User permissions are not regularly reviewed.
