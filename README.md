@@ -9,9 +9,13 @@
 
 # grc-security-portfolio
 
-This portfolio demonstrates how information security is translated into structured governance, risk-based decision-making, and real-world execution.
+Information Security as a system — from structured governance to real-world incident handling.
 
-It focuses on bridging the gap between security requirements, business decisions, and practical implementation.
+This portfolio demonstrates how security is translated into:
+
+- Structured governance  
+- Risk-based decision-making  
+- Real-world execution  
 
 ---
 
@@ -22,6 +26,8 @@ This portfolio is built around two complementary perspectives:
 ---
 
 ## 1. ISMS — Governance & Structure
+
+![ISMS Overview](./assets/isms-overview.png)
 
 This part demonstrates how security is structured and managed:
 
@@ -36,12 +42,14 @@ This part demonstrates how security is structured and managed:
 
 ## 2. Incident Response — Real-World Execution
 
+![Incident Response Overview](./assets/Incident_Response.png)
+
 This part demonstrates how security operates under real-world conditions:
 
 - End-to-end incident lifecycle (Detection → Recovery)  
 - Interaction between technical response and management decisions  
 - Severity-based escalation and prioritization  
-- Business impact–driven decision-making  
+- Business impact-driven decision-making  
 
 👉 [Open Incident Response Simulation](./incident-response-simulation)
 
@@ -57,7 +65,7 @@ It demonstrates how complex security requirements are translated into:
 - Practical and implementable controls  
 - Real-world response capabilities  
 
-The focus is not on tools — but on governance, prioritization, and decision-making under uncertainty.
+The focus is not on tools, but on governance, prioritization, and decision-making under uncertainty.
 
 ---
 
@@ -98,11 +106,11 @@ I am an IT professional with over 10 years of experience in complex IT environme
 
 My strength lies in translating technical risk into structured, actionable business decisions.
 
-I approach security as a management system — not a technical checkbox.
+I approach security as a management system, not a technical checkbox.
 
 ---
 
 ## Contact
 
 - LinkedIn: [Daniel Weber](https://www.linkedin.com/in/daniel-weber-594a81156/)  
-- GitHub: https://github.com/DanielWeber-Sec  
+- GitHub: https://github.com/DanielWeber-Sec
