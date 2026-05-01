@@ -1,12 +1,6 @@
-
----
-
-# 🔐 2. INCIDENT README (final Version)
-
-```markdown
 # Incident Response Simulation
 
-👉 See Executive Summary: [exec_summary.md](./exec_summary.md)
+See: [Executive Summary](./exec_summary.md)
 
 ---
 
@@ -24,28 +18,24 @@ It complements the ISMS project by showing how theoretical risks translate into 
 
 This diagram illustrates how a security incident is managed across technical and organizational layers.
 
-It highlights:
+It shows:
 
-- Structured response lifecycle (Detection → Recovery)  
+- A structured response lifecycle (Detection → Recovery)  
 - Severity-based escalation and decision-making  
-- Integration of technical and business perspectives  
-- Real-world pressure on decision-making  
+- Interaction between technical and business perspectives  
+- Decision-making under real-world conditions  
 
 ---
 
-## How to Navigate This Simulation
+## Structure
 
 This repository represents a full incident lifecycle.
 
-Follow the flow:
-
-1. Scenario → How the attack happens  
-2. Timeline → How it unfolds over time  
-3. Response → How it is handled technically  
-4. Governance → How decisions are made  
-5. Lessons Learned → What changes afterwards  
-
-This structure reflects how real-world incidents are analyzed and managed.
+1. Scenario — How the attack occurs  
+2. Timeline — How the incident unfolds  
+3. Response — Technical handling of the incident  
+4. Governance — Decision-making and escalation  
+5. Lessons Learned — Improvements after the incident  
 
 ---
 
@@ -74,6 +64,6 @@ It is about:
 - Responding effectively under pressure  
 - Making risk-based decisions with incomplete information  
 - Balancing technical actions with business impact  
-- Learning and improving continuously  
+- Continuously improving controls and processes  
 
-This simulation demonstrates how security is executed when it actually matters.
+This simulation demonstrates how security operates in real-world conditions.
