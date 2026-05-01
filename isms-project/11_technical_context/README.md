@@ -13,6 +13,7 @@
 ╚██████╗╚██████╔╝██║ ╚████║   ██║   ███████╗██╔╝ ██╗   ██║   
  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝   
 ```
+
 # Technical Context
 
 ## Objective
@@ -27,9 +28,9 @@ It extends the ISMS foundation by connecting policies and risk management with r
 
 The following domains are covered:
 
-- **Identity and Access Management (IAM)**
-- **Vulnerability Management**
-- **Cloud Security & Misconfiguration Risks**
+- **Identity and Access Management (IAM)**  
+- **Vulnerability Management**  
+- **Cloud Security & Misconfiguration Risks**  
 
 ---
 
@@ -47,162 +48,50 @@ Each document follows a consistent methodology:
 
 ## Key Idea
 
-Security is not just about technology or documentation.
+Technical risks are not isolated problems.
 
-> It is about understanding technical realities and turning them into informed decisions.
-
----
-
-## How This Fits into the ISMS
-
-The ISMS defines the overall governance model, scope, policies, risk management process, and control structure.
-
-This technical context section provides the technical grounding behind those decisions.
-
-Together, they form a complete risk-based security approach:
-
-- Governance defines **what must be controlled**  
-- Technical context explains **why it matters**  
-- Risk treatment defines **how it should be addressed**  
-
----
-
-## Covered Domains
-
----
-
-### Identity and Access Management (IAM)
-
-IAM focuses on controlling who has access to which systems, data, and privileges.
-
-Key topics include:
-
-- User access lifecycle  
-- Role-based access control (RBAC)  
-- Privileged access management  
-- Multi-factor authentication (MFA)  
-- Access reviews  
-- Joiner-Mover-Leaver processes  
-
-Key risks include:
-
-- Excessive privileges  
-- Orphaned accounts  
-- Weak authentication  
-- Missing access reviews  
-- Privilege creep over time  
-
-Related document:
-
-- [IAM Risk Model](./IAM_Risk_Model.md)
-
----
-
-### Vulnerability Management
-
-Vulnerability Management focuses on identifying, prioritizing, and reducing technical weaknesses across IT systems.
-
-Key topics include:
-
-- Vulnerability scanning  
-- CVE tracking  
-- Patch management  
-- Asset visibility  
-- Risk-based prioritization  
-- Remediation ownership  
-
-Key risks include:
-
-- Unpatched critical vulnerabilities  
-- Missing asset visibility  
-- Ineffective prioritization  
-- Delayed remediation  
-- Missing accountability between teams  
-
-Related document:
-
-- [Vulnerability Management Risk Model](./Vulnerability_Management.md)
-
----
-
-### Cloud Security & Misconfiguration Risks
-
-Cloud security focuses on risks caused by insecure configurations, excessive permissions, exposed services, and missing monitoring.
-
-Key topics include:
-
-- Cloud IAM  
-- Public exposure of services  
-- Misconfigured security groups  
-- Logging and monitoring  
-- Infrastructure as Code  
-- Shared responsibility model  
-
-Key risks include:
-
-- Publicly exposed storage or services  
-- Excessive permissions  
-- Misconfigured network access  
-- Missing monitoring  
-- Configuration drift  
-
-Related document:
-
-- [Cloud Misconfiguration Risk Model](./Cloud_Misconfiguration.md)
-
----
-
-## Combined Perspective
-
-Security risks rarely exist in isolation.
-
-> A vulnerability becomes critical when access is possible.  
-> Access becomes dangerous when vulnerabilities exist.
-
-This section reflects a defense-in-depth approach by combining:
-
-- Access control through IAM  
-- Attack surface reduction through Vulnerability Management  
-- Secure configuration through Cloud Security  
-
----
-
-## Governance Relevance
-
-The purpose of this section is not to demonstrate deep technical engineering.
-
-The purpose is to show how technical security risks can be translated into:
+They must be translated into:
 
 - Business risk  
 - Governance decisions  
 - Control requirements  
 - Risk treatment actions  
-- Audit-ready documentation  
-
-This is especially relevant for roles in:
-
-- Information Security Governance  
-- GRC  
-- ISMS Management  
-- Information Risk Management  
-- Security Management  
 
 ---
 
-## Positioning
+## Example System Context
 
-This section highlights a hybrid skillset:
+- Active Directory (IAM)  
+- Cloud Environment (AWS)  
+- Web Application (Customer Portal)  
+- Database (Customer Data)  
 
-- Understanding of technical security domains  
-- Ability to translate technical issues into risk-based decisions  
-- Alignment with ISMS and compliance frameworks  
-- Communication between technical teams and management  
+Trust Boundaries:
 
-The focus is:
-
-> **Technical credibility combined with governance expertise.**
+- Internal Network  
+- Public Internet  
 
 ---
+
+## Management Decision Example
+
+Risk: Missing MFA on critical systems  
+Residual Risk: High  
+
+Options:
+
+1. Accept risk  
+2. Implement MFA (cost: medium)  
+3. Restrict access (impact: high)  
+
+Decision:
+
+→ Implement MFA for all privileged accounts  
+
+Rationale:
+
+High impact + regulatory relevance (ISO 27001 A.5 / A.8)
+
 ---
 
 ## End-to-End Risk Scenario
@@ -222,88 +111,79 @@ A user account without MFA is compromised.
 
 ---
 
-### Step 2 – Privilege Escalation (IAM)
+### Step 2 – Persistence
 
-The attacker gains elevated permissions due to:
+The attacker creates additional accounts and maintains access.
 
-- Missing access reviews  
-- Overprivileged roles  
-
----
-
-### Step 3 – Exploitation (Vulnerability Management Failure)
-
-A known vulnerability in a production system is not patched.
-
-- Vulnerability is exploited  
-- Attacker gains system-level access  
+- No access reviews  
+- No monitoring  
 
 ---
 
-### Step 4 – Lateral Movement
+### Step 3 – Lateral Movement
 
-Due to weak segmentation:
+The attacker moves across systems.
 
-- attacker moves across systems  
-- accesses additional resources  
-
----
-
-### Step 5 – Data Exposure (Cloud Misconfiguration)
-
-Sensitive data is stored in a misconfigured cloud service.
-
-- Public access enabled  
-- No proper monitoring  
+- Shared credentials  
+- Overprivileged access  
 
 ---
 
-### Step 6 – Detection Failure
+### Step 4 – Exploitation (Vulnerability Failure)
 
-Because logging and monitoring are insufficient:
+Unpatched systems are exploited.
 
-- attack remains undetected  
-- no alerting is triggered  
+- Known vulnerabilities  
+- Missing patching  
 
 ---
 
-### Final Impact
+### Step 5 – Data Exfiltration
 
-- Full system compromise  
+Sensitive data is extracted.
+
+- No monitoring  
+- No anomaly detection  
+
+---
+
+### Step 6 – Business Impact
+
 - Data breach  
-- Regulatory consequences  
+- Service disruption  
+- Compliance violations  
 
 ---
 
-## Key Insight
+## Governance Relevance
 
-This scenario demonstrates that security failures rarely happen in isolation.
+The purpose of this section is not to demonstrate deep technical engineering.
 
-Instead, they result from:
+It shows how technical security risks can be translated into:
 
-- Weak IAM  
-- Missing vulnerability remediation  
-- Cloud misconfigurations  
-- Lack of monitoring  
-
----
-
-## Governance Takeaway
-
-Effective security requires:
-
-- Integrated controls across domains  
-- Clear ownership and responsibilities  
-- Risk-based prioritization  
-- Continuous monitoring  
+- Business risk  
+- Governance decisions  
+- Control requirements  
+- Risk treatment actions  
+- Audit-ready documentation  
 
 ---
 
-## Simplified System Flow
+## Positioning
 
-User → IAM → Application → Cloud → Data  
-↓  
-Logging → Monitoring → SIEM
+This section highlights a hybrid skillset:
+
+- Understanding of technical security domains  
+- Ability to translate technical issues into risk-based decisions  
+- Alignment with ISMS and compliance frameworks  
+- Communication between technical teams and management  
+
+The focus is:
+
+**Technical credibility combined with governance expertise.**
+
+---
+
 ## Summary
 
 This section strengthens the ISMS project by adding technical depth.
