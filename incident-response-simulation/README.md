@@ -1,5 +1,6 @@
+# Incident Response Simulation
 
-#  Incident Response Simulation
+---
 
 ## Objective
 
@@ -23,6 +24,8 @@ Follow the flow:
 
 This structure reflects how real-world incidents are analyzed and managed.
 
+---
+
 ## Scenario
 
 A ransomware attack compromises a production system through a vulnerable externally exposed service.
@@ -39,39 +42,53 @@ A ransomware attack compromises a production system through a vulnerable externa
 
 ---
 
+## System Context (Simplified)
+
+User → Web Application → Backend → Database  
+        ↓  
+     Logging → SIEM  
+
+Trust boundaries:
+
+- Public Internet  
+- Internal Network  
+
+---
+
+## Relation to ISMS
+
+This simulation builds on the ISMS foundation:
+
+- Identified risks → become real incidents  
+- Defined controls → are tested under pressure  
+- Governance → is validated in decision-making  
+
+It demonstrates how theoretical security concepts perform in real-world situations.
+
+---
+
 ## Why this matters
 
 Security is not only about preventing incidents.
 
 It is about:
 
+- Detecting attacks early  
 - Responding effectively  
-- Making decisions under pressure  
-- Limiting business damage  
+- Making informed decisions under pressure  
+- Minimizing business impact  
 
 ---
 
-## Structure
+## Key Takeaway
 
-- Scenario definition  
-- Incident timeline  
-- Response phases  
-- Governance decisions  
-- Lessons learned  
+Security is not a collection of controls.
 
----
+It is a system of:
 
-## Positioning
+- Risks  
+- Decisions  
+- Processes  
+- Responsibilities  
 
-This project demonstrates:
-
-- Technical understanding of attack scenarios  
-- Ability to structure incidents  
-- Translation into business impact  
-- Decision-making under uncertainty  
-
----
-
-## Key Message
-
-**Security is proven in crisis, not in documentation.**
+This project demonstrates how they interact in a real-world scenario.
