@@ -18,11 +18,11 @@ This repository represents a full incident lifecycle.
 
 Follow the flow:
 
-1. Scenario → How the attack happens  
-2. Timeline → How it unfolds over time  
-3. Response → How it is handled  
-4. Governance → How decisions are made  
-5. Lessons Learned → What changes afterwards  
+1. [Scenario](./scenario/ransomware_attack.md) → How the attack happens
+2. [Timeline](./timeline/incident_timeline.md) → How it unfolds over time
+3. [Response](./response/containment.md) → How it is handled
+4. [Governance](./governance/management_decisions.md) → How decisions are made
+5. [Lessons Learned](./lessons_learned.md) → What changes afterwards
 
 This structure reflects how real-world incidents are analyzed and managed.
 
