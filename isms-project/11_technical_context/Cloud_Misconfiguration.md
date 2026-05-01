@@ -38,7 +38,7 @@ Additional factors:
 
 ---
 
-### 🌍 1. Publicly Exposed Storage / Services
+###  1. Publicly Exposed Storage / Services
 
 **Description**  
 Cloud storage (e.g., S3 buckets, Blob storage) or services are publicly accessible.
@@ -61,7 +61,7 @@ Sensitive data becomes publicly accessible on the internet.
 
 ---
 
-### 🔑 2. Excessive Cloud IAM Permissions
+###  2. Excessive Cloud IAM Permissions
 
 **Description**  
 Users or services have overly broad permissions (e.g., admin roles).
@@ -84,7 +84,7 @@ Compromised credentials lead to full cloud environment takeover.
 
 ---
 
-### 🧱 3. Misconfigured Network Security (Security Groups / Firewall)
+###  3. Misconfigured Network Security (Security Groups / Firewall)
 
 **Description**  
 Security groups or firewall rules allow unrestricted access (e.g., 0.0.0.0/0).
@@ -107,7 +107,7 @@ Critical services are exposed to the public internet.
 
 ---
 
-### 📡 4. Missing Logging and Monitoring
+###  4. Missing Logging and Monitoring
 
 **Description**  
 Cloud logs (e.g., CloudTrail, Azure Monitor) are not enabled or not reviewed.
@@ -130,7 +130,7 @@ Security incidents remain unnoticed, increasing damage.
 
 ---
 
-### 🔄 5. Lack of Configuration Management
+###  5. Lack of Configuration Management
 
 **Description**  
 No standardized or automated configuration baseline (e.g., Infrastructure as Code).
