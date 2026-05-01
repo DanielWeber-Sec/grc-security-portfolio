@@ -26,13 +26,19 @@ The focus is on translating security requirements into practical governance, ris
 
 This diagram illustrates how an Information Security Management System (ISMS) is structured in practice.
 
-It shows how:
+It shows how security is implemented as a continuous lifecycle:
 
-- risks are identified and assessed  
-- controls are defined and implemented  
-- security is continuously monitored and improved  
+- Scope definition and asset identification  
+- Risk assessment and prioritization  
+- Risk treatment through controls  
+- Continuous monitoring and improvement  
 
-The ISMS is not a static framework – it enables structured, risk-based decision-making across the organization.
+The ISMS provides the foundation for structured, risk-based decision-making across the organization.
+
+However, security is only proven when real incidents occur.
+
+👉 See how these risks materialize in practice:  
+👉 [Incident Response Simulation](../incident-response-simulation/README.md)
 
 ---
 ## Business Scenario
