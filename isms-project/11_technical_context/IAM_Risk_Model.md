@@ -25,6 +25,28 @@ Risk Score = Likelihood (1–5) × Impact (1–5)
 
 ---
 
+## Risk Evaluation Approach
+
+... dein bestehender Content ...
+
+## Management Decision Example
+
+Risk: Missing MFA on critical systems  
+Residual Risk: High  
+
+Options:
+
+1. Accept risk  
+2. Implement MFA (cost: medium)  
+3. Restrict access (impact: high)  
+
+Decision:
+
+→ Implement MFA for all privileged accounts  
+
+Rationale:
+
+High impact + regulatory relevance (ISO 27001 A.5 / A.8)
 ## Key Risk Scenarios
 
 ---
