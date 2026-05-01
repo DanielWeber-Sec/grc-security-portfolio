@@ -2,22 +2,26 @@
 
 ## Objective
 
-This document demonstrates how cloud security risks, especially misconfigurations, are identified, assessed, and translated into structured risks, governance decisions, and ISO 27001-aligned controls.
+This document demonstrates how cloud-specific risks, especially misconfigurations, are identified, assessed, and translated into structured risks, governance decisions, and ISO 27001-aligned controls.
 
 ---
 
 ## Context
 
-Cloud environments (AWS, Azure, GCP) introduce a shared responsibility model.
+Cloud environments introduce new risks due to:
 
-Many critical incidents are not caused by sophisticated attacks, but by:
+- Dynamic infrastructure  
+- Shared responsibility models  
+- High complexity and scalability  
 
-- Misconfigured services  
-- Excessive permissions  
-- Lack of visibility  
-- Missing monitoring  
+Misconfigurations are one of the leading causes of cloud security incidents.
 
-Cloud security failures often result in immediate external exposure.
+Effective cloud security focuses on:
+
+- Secure configuration of services  
+- Access control and identity management  
+- Monitoring and detection  
+- Infrastructure as Code (IaC) governance  
 
 ---
 
@@ -27,10 +31,9 @@ Risk Score = Likelihood (1–5) × Impact (1–5)
 
 Additional factors:
 
-- Exposure (public / internal)  
+- Internet exposure  
+- Privilege level  
 - Data sensitivity  
-- Attack surface  
-- Automation maturity  
 
 ---
 
@@ -38,14 +41,15 @@ Additional factors:
 
 ---
 
-###  1. Publicly Exposed Storage / Services
+### 1. Publicly Exposed Storage (e.g., S3 Bucket)
 
 **Description**  
-Cloud storage (e.g., S3 buckets, Blob storage) or services are publicly accessible.
+Sensitive data is exposed due to misconfigured access settings.
 
 **Risks**
+
 - Data leakage  
-- Unauthorized downloads  
+- Regulatory violations  
 - Reputation damage  
 
 **Assessment**
@@ -57,42 +61,20 @@ Cloud storage (e.g., S3 buckets, Blob storage) or services are publicly accessib
 | Risk Score | 20     |
 
 **Business Impact**  
-Sensitive data becomes publicly accessible on the internet.
+Sensitive customer or company data becomes publicly accessible.
 
 ---
 
-###  2. Excessive Cloud IAM Permissions
+### 2. Overprivileged Cloud IAM Roles
 
 **Description**  
-Users or services have overly broad permissions (e.g., admin roles).
+Cloud identities have excessive permissions.
 
 **Risks**
+
 - Privilege escalation  
-- Full account compromise  
-- Lateral movement  
-
-**Assessment**
-
-| Factor      | Rating |
-|------------|--------|
-| Impact     | High   |
-| Likelihood | High   |
-| Risk Score | 20     |
-
-**Business Impact**  
-Compromised credentials lead to full cloud environment takeover.
-
----
-
-###  3. Misconfigured Network Security (Security Groups / Firewall)
-
-**Description**  
-Security groups or firewall rules allow unrestricted access (e.g., 0.0.0.0/0).
-
-**Risks**
-- Direct exposure of services  
-- Brute force attacks  
-- Exploitation of vulnerabilities  
+- Unauthorized access  
+- Full environment compromise  
 
 **Assessment**
 
@@ -100,130 +82,115 @@ Security groups or firewall rules allow unrestricted access (e.g., 0.0.0.0/0).
 |------------|--------|
 | Impact     | High   |
 | Likelihood | Medium–High |
-| Risk Score | 15–20       |
+| Risk Score | 15–20 |
 
 **Business Impact**  
-Critical services are exposed to the public internet.
+Attackers can control cloud infrastructure after initial compromise.
 
 ---
 
-###  4. Missing Logging and Monitoring
+### 3. Missing Logging & Monitoring
 
 **Description**  
-Cloud logs (e.g., CloudTrail, Azure Monitor) are not enabled or not reviewed.
+Insufficient logging in cloud environments.
 
 **Risks**
-- Attacks go undetected  
-- No forensic capability  
-- Delayed response  
+
+- Undetected attacks  
+- Delayed incident response  
 
 **Assessment**
 
 | Factor      | Rating |
 |------------|--------|
 | Impact     | High   |
-| Likelihood | High   |
-| Risk Score | 20     |
+| Likelihood | Medium |
+| Risk Score | 12     |
 
 **Business Impact**  
-Security incidents remain unnoticed, increasing damage.
-
----
-
-###  5. Lack of Configuration Management
-
-**Description**  
-No standardized or automated configuration baseline (e.g., Infrastructure as Code).
-
-**Risks**
-- Drift from secure baseline  
-- Inconsistent environments  
-- Repeated misconfigurations  
-
-**Assessment**
-
-| Factor      | Rating |
-|------------|--------|
-| Impact     | Medium–High |
-| Likelihood | High        |
-| Risk Score | 15–20       |
-
-**Business Impact**  
-Security posture degrades over time without visibility.
+Security incidents remain unnoticed until damage is done.
 
 ---
 
 ## Example Risk Mapping
 
-| Risk ID | Description | Likelihood | Impact | Score | Control |
-|--------|------------|-----------|--------|------|--------|
-| R-20 | Public S3 bucket exposure | 4 | 5 | 20 | Access Restrictions, Monitoring |
-| R-21 | Excessive IAM permissions | 4 | 5 | 20 | Least Privilege, IAM Policies |
+| Risk ID | Description                      | Likelihood | Impact | Score | Control                     |
+|--------|----------------------------------|-----------|--------|-------|-----------------------------|
+| R-20   | Public S3 bucket                 | 4         | 5      | 20    | Secure Configuration        |
+| R-21   | Overprivileged IAM roles         | 4         | 4      | 16    | Least Privilege             |
 
 ---
 
 ## Control Mapping (ISO 27001 aligned)
 
-- Access Control (IAM)  
-- Network Security Controls  
-- Logging and Monitoring  
-- Configuration Management  
-- Asset Management  
-
-Cloud-specific practices:
-
-- Least privilege IAM  
-- Secure defaults  
-- Continuous monitoring  
-- Infrastructure as Code (IaC)  
-- CSPM (Cloud Security Posture Management)  
+- Access Control (IAM / Least Privilege)  
+- Secure Configuration Management  
+- Logging & Monitoring  
+- Infrastructure as Code Governance  
 
 ---
 
 ## Example Scenario
 
-A cloud storage bucket is accidentally configured as public.
+A cloud storage service is misconfigured and publicly accessible.
 
-The bucket contains sensitive internal documents.
+An attacker discovers the service via automated scanning.
 
-An attacker discovers the bucket via automated scanning tools.
+Because access restrictions are missing:
 
-Because:
+- sensitive data is exposed  
+- data can be downloaded without authentication  
 
-- no access restrictions are enforced  
-- no monitoring is in place  
+Because logging is insufficient:
 
-the attacker is able to:
+- access is not detected  
 
-- download sensitive data  
-- remain undetected  
+**Result**
 
-**Result**  
-Data breach caused by simple misconfiguration.
+Data breach due to misconfiguration and lack of monitoring.
+
+---
+
+## Management Decision Example
+
+Risk: Publicly exposed cloud storage  
+Residual Risk: High  
+
+Options:
+
+1. Accept risk  
+2. Restrict public access  
+3. Implement automated configuration checks  
+
+Decision:
+
+→ **Restrict access and implement continuous configuration monitoring**
+
+Rationale:
+
+High impact on confidentiality + regulatory exposure  
+(ISO 27001 A.5 / A.8)
 
 ---
 
 ## Governance Perspective
 
-Cloud security requires alignment between:
+Cloud security requires coordination between:
 
-- Cloud Engineering (implementation)  
 - Security (policies & controls)  
-- DevOps (automation & deployment)  
-- Management (risk ownership)  
+- Cloud / DevOps (implementation)  
+- Management (risk prioritization)  
 
 ---
 
 ## Conclusion
 
-Cloud security is not only about infrastructure.
+Cloud misconfiguration risks can lead to immediate and severe security incidents.
 
-It is about managing:
+Proper governance enables:
 
-- configuration risks  
-- access risks  
-- visibility  
+- secure-by-default configurations  
+- continuous monitoring  
+- scalable security controls  
 
-Misconfigurations are one of the fastest ways to create critical security incidents.
-
-A structured, risk-based approach is essential.
+Cloud security is not a tool problem, but a governance and process challenge.
