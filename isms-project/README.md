@@ -17,10 +17,10 @@ This project demonstrates the structured implementation of an Information Securi
 
 The focus is on translating security requirements into practical governance, risk-based decision-making, and implementable controls.
 
----
+
 ---
 
-## 🧠 ISMS Overview
+##  ISMS Overview
 
 ![ISMS Overview](../assets/isms-overview.png)
 
