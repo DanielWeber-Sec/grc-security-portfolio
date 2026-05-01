@@ -9,7 +9,7 @@
 
 # grc-security-portfolio
 
-This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and real-world implementation.
+This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and real-world execution.
 
 It focuses on translating security requirements into clear structures, business-aligned decisions, and implementable controls in a realistic environment.
 
@@ -19,12 +19,52 @@ It focuses on translating security requirements into clear structures, business-
 
 ---
 
+## Portfolio Overview
+
+This portfolio is built around two core perspectives:
+
+### 1. Governance & Structure (ISMS)
+
+- How risks are identified and assessed  
+- How decisions are made  
+- How controls are defined and implemented  
+
+👉 [Explore ISMS Implementation](./isms-project)
+
+---
+
+### 2. Real-World Execution (Incident Response)
+
+Security is only proven when incidents occur.
+
+This simulation demonstrates:
+
+- How incidents unfold  
+- How technical and management decisions interact  
+- How business impact drives response priorities  
+
+👉 [Explore Incident Response Simulation](./incident-response-simulation/README.md)
+
+---
+
+## From Risk to Reality
+
+This portfolio intentionally connects both worlds:
+
+- ISMS → defines risks and controls  
+- Incident Response → validates them under real conditions  
+
+👉 Together, they show how security works beyond documentation.
+
+---
+
 ## Quick Navigation
 
 - 👉 [ISMS Implementation](./isms-project)  
 - 👉 [Risk Assessment](./isms-project/02_risk-assessment)  
 - 👉 [Security Policies](./isms-project/05_policies)  
-- 👉 [Tabletop Exercise](./isms-project/09_tabletop_exercise)
+- 👉 [Tabletop Exercise](./isms-project/09_tabletop_exercise)  
+- 👉 [Incident Response Simulation](./incident-response-simulation/README.md)
 
 ---
 
@@ -64,6 +104,8 @@ I approach security as a management system — not a technical checkbox.
 - Translation of risk into actionable controls  
 - Business-driven prioritization  
 - Governance and accountability structures  
+- Incident response under realistic conditions  
+- Decision-making under pressure  
 - Audit readiness and continuous improvement  
 
 ---
@@ -72,6 +114,9 @@ I approach security as a management system — not a technical checkbox.
 
 ### ISMS Implementation  
 👉 [Open Project](./isms-project)
+
+### Incident Response Simulation  
+👉 [Open Project](./incident-response-simulation/README.md)
 
 ### Risk Assessment  
 👉 [View](./isms-project/02_risk-assessment)
@@ -88,7 +133,12 @@ I approach security as a management system — not a technical checkbox.
 
 This portfolio represents a governance-focused approach to information security.
 
-The focus is not on tools, but on structure, prioritization, and decision-making.
+The focus is not on tools, but on:
+
+- Structure  
+- Prioritization  
+- Decision-making  
+- Real-world execution  
 
 ---
 
