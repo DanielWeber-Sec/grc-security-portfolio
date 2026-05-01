@@ -1,6 +1,12 @@
+
+---
+
+# 🔐 2. INCIDENT README (final Version)
+
+```markdown
 # Incident Response Simulation
 
-📄 **Executive Summary:** [View here](./exec_summary.md)
+👉 See Executive Summary: [exec_summary.md](./exec_summary.md)
 
 ---
 
@@ -12,17 +18,32 @@ It complements the ISMS project by showing how theoretical risks translate into 
 
 ---
 
+## Incident Response Overview
+
+![Incident Response Overview](../assets/Incident_Response.png)
+
+This diagram illustrates how a security incident is managed across technical and organizational layers.
+
+It highlights:
+
+- Structured response lifecycle (Detection → Recovery)  
+- Severity-based escalation and decision-making  
+- Integration of technical and business perspectives  
+- Real-world pressure on decision-making  
+
+---
+
 ## How to Navigate This Simulation
 
 This repository represents a full incident lifecycle.
 
 Follow the flow:
 
-1. [Scenario](./scenario/ransomware_attack.md) → How the attack happens
-2. [Timeline](./timeline/incident_timeline.md) → How it unfolds over time
-3. [Response](./response/containment.md) → How it is handled
-4. [Governance](./governance/management_decisions.md) → How decisions are made
-5. [Lessons Learned](./lessons_learned.md) → What changes afterwards
+1. Scenario → How the attack happens  
+2. Timeline → How it unfolds over time  
+3. Response → How it is handled technically  
+4. Governance → How decisions are made  
+5. Lessons Learned → What changes afterwards  
 
 This structure reflects how real-world incidents are analyzed and managed.
 
@@ -44,53 +65,15 @@ A ransomware attack compromises a production system through a vulnerable externa
 
 ---
 
-## System Context (Simplified)
-
-User → Web Application → Backend → Database  
-        ↓  
-     Logging → SIEM  
-
-Trust boundaries:
-
-- Public Internet  
-- Internal Network  
-
----
-
-## Relation to ISMS
-
-This simulation builds on the ISMS foundation:
-
-- Identified risks → become real incidents  
-- Defined controls → are tested under pressure  
-- Governance → is validated in decision-making  
-
-It demonstrates how theoretical security concepts perform in real-world situations.
-
----
-
 ## Why this matters
 
 Security is not only about preventing incidents.
 
 It is about:
 
-- Detecting attacks early  
-- Responding effectively  
-- Making informed decisions under pressure  
-- Minimizing business impact  
+- Responding effectively under pressure  
+- Making risk-based decisions with incomplete information  
+- Balancing technical actions with business impact  
+- Learning and improving continuously  
 
----
-
-## Key Takeaway
-
-Security is not a collection of controls.
-
-It is a system of:
-
-- Risks  
-- Decisions  
-- Processes  
-- Responsibilities  
-
-This project demonstrates how they interact in a real-world scenario.
+This simulation demonstrates how security is executed when it actually matters.
