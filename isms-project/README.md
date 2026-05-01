@@ -18,7 +18,23 @@ This project demonstrates the structured implementation of an Information Securi
 The focus is on translating security requirements into practical governance, risk-based decision-making, and implementable controls.
 
 ---
+---
+
+## 🧠 ISMS Overview
+
 ![ISMS Overview](../assets/isms-overview.png)
+
+This diagram illustrates how an Information Security Management System (ISMS) is structured in practice.
+
+It shows how:
+
+- risks are identified and assessed  
+- controls are defined and implemented  
+- security is continuously monitored and improved  
+
+The ISMS is not a static framework – it enables structured, risk-based decision-making across the organization.
+
+---
 ## Business Scenario
 
 The ISMS is designed for a mid-sized automotive supplier operating in a production-driven and regulated environment.
