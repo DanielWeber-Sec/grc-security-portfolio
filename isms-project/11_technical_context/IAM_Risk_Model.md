@@ -4,109 +4,122 @@
 
 This document demonstrates how Identity and Access Management (IAM) risks are identified, assessed, and translated into structured risks, governance decisions, and ISO 27001-aligned controls.
 
-The goal is to ensure that access to systems and data is appropriate, controlled, and continuously validated.
-
 ---
 
 ## Context
 
-IAM is a critical security domain because it directly controls who can access which systems and data.
+IAM is a critical control layer that determines who can access which systems and data.
 
-Weak IAM practices are a leading cause of:
+Failures in IAM directly lead to:
 
-- Unauthorized access to sensitive information
-- Privilege escalation and lateral movement
-- Insider threats and misuse of access rights
-- Compliance violations (e.g., ISO 27001, GDPR)
+- Unauthorized access
+- Privilege escalation
+- Insider threats
+- Compliance violations
+
+---
+
+## Risk Evaluation Model
+
+Risk Score = Likelihood (1–5) × Impact (1–5)
 
 ---
 
 ## Key Risk Scenarios
 
-### 1. Excessive Privileges
+---
+
+### 🔑 1. Excessive Privileges
 
 **Description**  
 Users or service accounts have more permissions than required.
 
-**Risk**
-- Unauthorized access to sensitive data  
+**Risks**
+- Unauthorized data access  
 - Increased impact of compromised accounts  
-- Higher risk of insider misuse  
+- Insider misuse  
 
-**Impact**  
-High
+**Assessment**
 
-**Likelihood**  
-Medium
+| Factor      | Rating |
+|------------|--------|
+| Impact     | High   |
+| Likelihood | Medium |
+| Risk Score | 15     |
+
+**Business Impact**  
+Compromise of high-value systems due to excessive permissions.
 
 ---
 
-### 2. Missing Joiner-Mover-Leaver Process
+### 🔁 2. Missing Joiner-Mover-Leaver Process
 
 **Description**  
-User access is not properly updated when employees join, change roles, or leave.
+User access is not updated when employees join, change roles, or leave.
 
-**Risk**
+**Risks**
 - Orphaned accounts  
 - Unauthorized continued access  
 - Compliance violations  
 
-**Impact**  
-High
+**Assessment**
 
-**Likelihood**  
-High
+| Factor      | Rating |
+|------------|--------|
+| Impact     | High   |
+| Likelihood | High   |
+| Risk Score | 20     |
+
+**Business Impact**  
+Former employees retain access to internal systems and sensitive data.
 
 ---
 
-### 3. Weak Authentication Mechanisms
+### 🔐 3. Weak Authentication Mechanisms
 
 **Description**  
 Systems rely on weak authentication (e.g., no MFA).
 
-**Risk**
+**Risks**
 - Account takeover  
 - Unauthorized system access  
 
-**Impact**  
-High
+**Assessment**
 
-**Likelihood**  
-High
+| Factor      | Rating |
+|------------|--------|
+| Impact     | High   |
+| Likelihood | High   |
+| Risk Score | 20     |
+
+**Business Impact**  
+Attackers gain access to critical systems via compromised credentials.
 
 ---
 
-### 4. Lack of Access Reviews
+### 🔍 4. Lack of Access Reviews
 
 **Description**  
 User permissions are not regularly reviewed.
 
-**Risk**
+**Risks**
 - Privilege creep  
-- Excessive access over time  
+- Uncontrolled access growth  
 
-**Impact**  
-Medium–High
+**Assessment**
 
-**Likelihood**  
-High
+| Factor      | Rating |
+|------------|--------|
+| Impact     | Medium–High |
+| Likelihood | High        |
+| Risk Score | 15–20       |
 
----
-
-## Risk Evaluation Approach
-
-Risk scoring is based on:
-
-- Likelihood (1–5)  
-- Impact (1–5)  
-
-Risk Score = Likelihood × Impact
+**Business Impact**  
+Unnecessary access accumulates over time, increasing risk exposure.
 
 ---
 
 ## Example Risk Mapping
-
-Example entry in risk register:
 
 | Risk ID | Description | Likelihood | Impact | Score | Control |
 |--------|------------|-----------|--------|------|--------|
@@ -117,33 +130,12 @@ Example entry in risk register:
 
 ## Control Mapping (ISO 27001 aligned)
 
-Relevant controls include:
-
 - Access Control Policy  
 - User Access Management  
 - Privileged Access Management  
 - Authentication Controls (MFA)  
 - Access Review Procedures  
 - Logging and Monitoring  
-
----
-
-## Risk Treatment Strategy
-
-### Preventive Controls
-- Enforce least privilege (RBAC)  
-- Implement MFA  
-- Define Joiner-Mover-Leaver processes  
-
-### Detective Controls
-- Access reviews  
-- Monitoring privileged accounts  
-- Logging and SIEM  
-
-### Corrective Controls
-- Deprovisioning of accounts  
-- Incident response  
-- Access remediation  
 
 ---
 
@@ -157,7 +149,8 @@ Because no MFA is implemented and access reviews are missing, the attacker is ab
 - access sensitive data  
 - remain undetected  
 
-This demonstrates the combined failure of IAM controls and monitoring mechanisms.
+**Result**  
+Full system compromise due to combined IAM control failures.
 
 ---
 
@@ -165,202 +158,19 @@ This demonstrates the combined failure of IAM controls and monitoring mechanisms
 
 IAM requires coordination between:
 
-- HR (identity lifecycle)  
-- IT (account provisioning)  
-- Security (policies & monitoring)  
-- Management (risk ownership)  
-
----
-
-## Conclusion
-
-IAM is a core pillar of security.
-
-It translates technical access control into:
-
-- governance decisions  
-- risk management  
-- compliance readiness  # IAM Risk Model
-
-## Objective
-
-This document demonstrates how Identity and Access Management (IAM) risks are identified, assessed, and translated into structured risks, governance decisions, and ISO 27001-aligned controls.
-
-The goal is to ensure that access to systems and data is appropriate, controlled, and continuously validated.
-
----
-
-## Context
-
-IAM is a critical security domain because it directly controls who can access which systems and data.
-
-Weak IAM practices are a leading cause of:
-
-- Unauthorized access to sensitive information
-- Privilege escalation and lateral movement
-- Insider threats and misuse of access rights
-- Compliance violations (e.g., ISO 27001, GDPR)
-
-Effective IAM is therefore a cornerstone of any Information Security Management System (ISMS).
-
----
-
-## Key Risk Scenarios
-
-### 1. Excessive Privileges
-
-**Description**  
-Users or service accounts have more permissions than required.
-
-**Risk**  
-- Unauthorized access to sensitive data  
-- Increased impact of compromised accounts  
-- Higher risk of insider misuse  
-
-**Example**  
-A developer retains administrative access to production systems.
-
-**Impact**  
-High
-
-**Likelihood**  
-Medium
-
----
-
-### 2. Missing Joiner-Mover-Leaver Process
-
-**Description**  
-User access is not properly updated when employees join, change roles, or leave the organization.
-
-**Risk**  
-- Orphaned accounts  
-- Unauthorized continued access  
-- Compliance violations  
-
-**Example**  
-A former employee still has access to internal systems via VPN.
-
-**Impact**  
-High
-
-**Likelihood**  
-High
-
----
-
-### 3. Weak Authentication Mechanisms
-
-**Description**  
-Systems rely on weak authentication (e.g., no MFA).
-
-**Risk**  
-- Account takeover via phishing or credential stuffing  
-- Unauthorized system access  
-
-**Example**  
-Critical applications are accessible with password-only authentication.
-
-**Impact**  
-High
-
-**Likelihood**  
-High
-
----
-
-### 4. Lack of Access Reviews
-
-**Description**  
-User permissions are not regularly reviewed and validated.
-
-**Risk**  
-- Privilege creep over time  
-- Accumulation of unnecessary access rights  
-
-**Example**  
-Users retain access to systems they no longer need.
-
-**Impact**  
-Medium–High
-
-**Likelihood**  
-High
-
----
-
-## Risk Evaluation Approach
-
-Risk scoring is based on:
-
-- Likelihood (1–5)  
-- Impact (1–5)  
-
-Risk Score = Likelihood × Impact
-
-Additional factors may include:
-
-- Privilege level (standard vs. admin)
-- System criticality
-- Exposure (internal vs. external)
-
----
-
-## Control Mapping (ISO 27001 aligned)
-
-Relevant controls include:
-
-- **Access Control Policy**
-- **User Access Management**
-- **Privileged Access Management**
-- **Authentication Controls (e.g., MFA)**
-- **Access Review Procedures**
-- **Logging and Monitoring of Access Activities**
-
----
-
-## Risk Treatment Strategy
-
-### Preventive Controls
-- Enforce least privilege (Role-Based Access Control)
-- Implement Multi-Factor Authentication (MFA)
-- Define and enforce Joiner-Mover-Leaver processes
-
-### Detective Controls
-- Regular access reviews
-- Monitoring of privileged account activity
-- Logging and SIEM integration
-
-### Corrective Controls
-- Immediate deprovisioning of unauthorized accounts
-- Incident response for compromised identities
-- Remediation of misconfigured access rights
-
----
-
-## Governance Perspective
-
-IAM is not only a technical topic but a governance challenge.
-
-It requires coordination between:
-
 - HR (identity lifecycle)
 - IT (account provisioning)
-- Security (policy and monitoring)
+- Security (policies & monitoring)
 - Management (risk ownership)
-
-Clear ownership, defined processes, and accountability are essential.
 
 ---
 
 ## Conclusion
 
-Effective IAM reduces some of the most critical security risks.
+IAM is not just a technical topic.
 
-By translating access-related issues into structured risks and controls, IAM becomes a key component of:
+It is a governance-critical domain that directly impacts:
 
-- Information Security Governance
-- Risk Management
-- Compliance (ISO 27001, GDPR, NIS2)
-
-This approach enables proactive, risk-based decision-making instead of reactive access control.
+- business risk
+- compliance
+- operational security
