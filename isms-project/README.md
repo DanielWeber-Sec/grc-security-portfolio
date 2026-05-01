@@ -90,42 +90,57 @@ The implementation follows a consistent lifecycle:
 ---
 
 ## Key Components
+## Key Components
 
-### Scope & Context  
-👉 `01_scope_context`  
+### Scope & Context
+
+👉 [`01_scope_context`](./01_scope_context)  
 Definition of business environment, assets, and stakeholders.
 
-### Risk Assessment  
-👉 `02_risk-assessment`  
+### Risk Assessment
+
+👉 [`02_risk-assessment`](./02_risk-assessment)  
 Development of a qualitative risk model and evaluation process.
 
-### Risk Treatment  
-👉 `03_risk_treatment`  
+### Risk Treatment
+
+👉 [`03_risk_treatment`](./03_risk_treatment)  
 Definition of mitigation strategies and control mapping.
 
-### Policies  
-👉 `05_policies`  
+### Policies
+
+👉 [`05_policies`](./05_policies)  
 Security policies aligned with ISO 27001.
 
-### Control Mapping  
-👉 `06_control_mapping`  
+### Control Mapping
+
+👉 [`06_control_mapping`](./06_control_mapping)  
 Mapping controls to frameworks and requirements.
 
-### Compliance Extension  
-👉 `07_compliance_extension`  
+### Compliance Extension
+
+👉 [`07_compliance_extension`](./07_compliance_extension)  
 Extension towards regulatory requirements.
 
-### Audit Preparation  
-👉 `08_audit`  
+### Audit Preparation
+
+👉 [`08_audit`](./08_audit)  
 Preparation of audit artifacts and findings.
 
-### Tabletop Exercise  
-👉 `09_tabletop_exercise`  
+### Tabletop Exercise
+
+👉 [`09_tabletop_exercise`](./09_tabletop_exercise)  
 Simulation of a ransomware scenario.
 
-### Business Continuity  
-👉 `10_business_continuity`  
+### Business Continuity
+
+👉 [`10_business_continuity`](./10_business_continuity)  
 Recovery strategies and continuity planning.
+
+### Technical Context
+
+👉 [`11_technical_context`](./11_technical_context)  
+Technical risk models for IAM, vulnerability management, and cloud misconfiguration.
 
 ---
 
