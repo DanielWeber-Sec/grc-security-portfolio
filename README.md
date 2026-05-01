@@ -9,62 +9,41 @@
 
 # grc-security-portfolio
 
-This portfolio demonstrates how information security can be translated into structured governance, risk-based decision-making, and real-world execution.
+This portfolio demonstrates how information security is translated into structured governance, risk-based decision-making, and real-world execution.
 
-It focuses on translating security requirements into clear structures, business-aligned decisions, and implementable controls in a realistic environment.
-
-![ISMS Overview](./assets/isms-overview.png)
-
-*Structured. Practical. Risk-based.*
+It focuses on bridging the gap between security requirements, business decisions, and practical implementation.
 
 ---
 
-## Portfolio Overview
+## Overview
 
-This portfolio is built around two core perspectives:
-
-### 1. Governance & Structure (ISMS)
-
-- How risks are identified and assessed  
-- How decisions are made  
-- How controls are defined and implemented  
-
-👉 [Explore ISMS Implementation](./isms-project)
+This portfolio is built around two complementary perspectives:
 
 ---
 
-### 2. Real-World Execution (Incident Response)
+## 1. ISMS — Governance & Structure
 
-Security is only proven when incidents occur.
+This part demonstrates how security is structured and managed:
 
-This simulation demonstrates:
+- Risk identification and assessment  
+- Control definition and implementation  
+- Governance and accountability structures  
+- Continuous improvement  
 
-- How incidents unfold  
-- How technical and management decisions interact  
-- How business impact drives response priorities  
-
-👉 [Explore Incident Response Simulation](./incident-response-simulation/README.md)
-
----
-
-## From Risk to Reality
-
-This portfolio intentionally connects both worlds:
-
-- ISMS → defines risks and controls  
-- Incident Response → validates them under real conditions  
-
-👉 Together, they show how security works beyond documentation.
+👉 [Open ISMS Implementation](./isms-project)
 
 ---
 
-## Quick Navigation
+## 2. Incident Response — Real-World Execution
 
-- 👉 [ISMS Implementation](./isms-project)  
-- 👉 [Risk Assessment](./isms-project/02_risk-assessment)  
-- 👉 [Security Policies](./isms-project/05_policies)  
-- 👉 [Tabletop Exercise](./isms-project/09_tabletop_exercise)  
-- 👉 [Incident Response Simulation](./incident-response-simulation/README.md)
+This part demonstrates how security operates under real-world conditions:
+
+- End-to-end incident lifecycle (Detection → Recovery)  
+- Interaction between technical response and management decisions  
+- Severity-based escalation and prioritization  
+- Business impact–driven decision-making  
+
+👉 [Open Incident Response Simulation](./incident-response-simulation)
 
 ---
 
@@ -72,40 +51,24 @@ This portfolio intentionally connects both worlds:
 
 This is not a theoretical security project.
 
-It demonstrates how I translate complex security requirements into structured, business-aligned decisions that can actually be implemented.
+It demonstrates how complex security requirements are translated into:
 
-The focus is not on tools — but on governance, prioritization, and making security work in real-world environments.
+- Structured, business-aligned decisions  
+- Practical and implementable controls  
+- Real-world response capabilities  
 
-👉 If you are looking for someone who can bridge the gap between IT, business, and security — this is exactly what this portfolio shows.
-
----
-
-## About Me
-
-I am an IT professional with over 10 years of experience in complex IT environments, focusing on Information Security Governance, GRC, and ISMS implementation.
-
-My strength lies in translating technical risk into structured, actionable business decisions.
-
-I approach security as a management system — not a technical checkbox.
-
-### What I bring
-
-- Risk-based decision-making (Likelihood × Impact driven)  
-- Business-aligned security governance  
-- Practical ISMS implementation (ISO 27001 aligned)  
-- Strong interface between IT and management  
-- Clear prioritization in complex environments  
+The focus is not on tools — but on governance, prioritization, and decision-making under uncertainty.
 
 ---
 
 ## What this portfolio demonstrates
 
 - End-to-end ISMS implementation (ISO 27001 aligned)  
+- Risk-based decision-making (Likelihood × Impact)  
 - Translation of risk into actionable controls  
+- Incident response under real-world conditions  
+- Governance and escalation structures  
 - Business-driven prioritization  
-- Governance and accountability structures  
-- Incident response under realistic conditions  
-- Decision-making under pressure  
 - Audit readiness and continuous improvement  
 
 ---
@@ -116,7 +79,7 @@ I approach security as a management system — not a technical checkbox.
 👉 [Open Project](./isms-project)
 
 ### Incident Response Simulation  
-👉 [Open Project](./incident-response-simulation/README.md)
+👉 [Open Project](./incident-response-simulation)
 
 ### Risk Assessment  
 👉 [View](./isms-project/02_risk-assessment)
@@ -129,16 +92,13 @@ I approach security as a management system — not a technical checkbox.
 
 ---
 
-## Positioning
+## About Me
 
-This portfolio represents a governance-focused approach to information security.
+I am an IT professional with over 10 years of experience in complex IT environments, focusing on Information Security Governance, GRC, and ISMS implementation.
 
-The focus is not on tools, but on:
+My strength lies in translating technical risk into structured, actionable business decisions.
 
-- Structure  
-- Prioritization  
-- Decision-making  
-- Real-world execution  
+I approach security as a management system — not a technical checkbox.
 
 ---
 
