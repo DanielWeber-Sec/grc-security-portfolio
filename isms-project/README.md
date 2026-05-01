@@ -18,7 +18,7 @@ This project demonstrates the structured implementation of an Information Securi
 The focus is on translating security requirements into practical governance, risk-based decision-making, and implementable controls.
 
 ---
-
+![ISMS Overview](../assets/isms-overview.png)
 ## Business Scenario
 
 The ISMS is designed for a mid-sized automotive supplier operating in a production-driven and regulated environment.
