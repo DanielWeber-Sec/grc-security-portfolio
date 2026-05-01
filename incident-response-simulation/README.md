@@ -1,6 +1,7 @@
 # Incident Response Simulation
 
---> See Executive Summary: ./exec_summary.md
+📄 **Executive Summary:** [View here](./exec_summary.md)
+
 ---
 
 ## Objective
