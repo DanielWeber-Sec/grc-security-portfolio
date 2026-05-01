@@ -203,7 +203,107 @@ The focus is:
 > **Technical credibility combined with governance expertise.**
 
 ---
+---
 
+## End-to-End Risk Scenario
+
+### Scenario Overview
+
+A compromised user account leads to a full system compromise across multiple layers.
+
+---
+
+### Step 1 – Initial Access (IAM Failure)
+
+A user account without MFA is compromised.
+
+- Weak authentication  
+- Excessive privileges  
+
+---
+
+### Step 2 – Privilege Escalation (IAM)
+
+The attacker gains elevated permissions due to:
+
+- Missing access reviews  
+- Overprivileged roles  
+
+---
+
+### Step 3 – Exploitation (Vulnerability Management Failure)
+
+A known vulnerability in a production system is not patched.
+
+- Vulnerability is exploited  
+- Attacker gains system-level access  
+
+---
+
+### Step 4 – Lateral Movement
+
+Due to weak segmentation:
+
+- attacker moves across systems  
+- accesses additional resources  
+
+---
+
+### Step 5 – Data Exposure (Cloud Misconfiguration)
+
+Sensitive data is stored in a misconfigured cloud service.
+
+- Public access enabled  
+- No proper monitoring  
+
+---
+
+### Step 6 – Detection Failure
+
+Because logging and monitoring are insufficient:
+
+- attack remains undetected  
+- no alerting is triggered  
+
+---
+
+### Final Impact
+
+- Full system compromise  
+- Data breach  
+- Regulatory consequences  
+
+---
+
+## Key Insight
+
+This scenario demonstrates that security failures rarely happen in isolation.
+
+Instead, they result from:
+
+- Weak IAM  
+- Missing vulnerability remediation  
+- Cloud misconfigurations  
+- Lack of monitoring  
+
+---
+
+## Governance Takeaway
+
+Effective security requires:
+
+- Integrated controls across domains  
+- Clear ownership and responsibilities  
+- Risk-based prioritization  
+- Continuous monitoring  
+
+---
+
+## Simplified System Flow
+
+User → IAM → Application → Cloud → Data  
+↓  
+Logging → Monitoring → SIEM
 ## Summary
 
 This section strengthens the ISMS project by adding technical depth.
