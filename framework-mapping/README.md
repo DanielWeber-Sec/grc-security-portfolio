@@ -1,5 +1,7 @@
 # Integrated Security & Compliance Mapping
 
+![Integrated Security Governance Model](assets/Priority_GOVERNANCE.png)
+
 ## Overview
 
 Modern organizations rarely operate under a single security or compliance framework.
