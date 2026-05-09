@@ -1,6 +1,8 @@
 # Integrated Security & Compliance Mapping
 
-![Integrated Security Governance Model](assets/Priority_GOVERNANCE.png)
+![Integrated Security Governance Model](../assets/integrated-security-governance-model.png)
+
+> Integrated governance model showing how ISO 27001 supports modern regulatory, operational resilience, and enterprise security governance requirements across NIS2 and DORA.
 
 ## Overview
 
